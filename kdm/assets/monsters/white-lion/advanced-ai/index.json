@@ -1,0 +1,71 @@
+{
+    "id": "white-lion-advanced-ai",
+    "type": "AI",
+    "name": "White Lion Advanced AI",
+    "base_folder": "monsters/white-lion/advanced-ai",
+    "cards": [
+        {
+            "id": "alert",
+            "type": "AI",
+            "name": "Alert",
+            "front": "alert.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "bloodthirsty",
+            "type": "AI",
+            "name": "Bloodthirsty",
+            "front": "bloodthirsty.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "bloody-claw",
+            "type": "AI",
+            "name": "Bloody Claw",
+            "front": "bloody-claw.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "enraged",
+            "type": "AI",
+            "name": "Enraged",
+            "front": "enraged.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "ground-fighting",
+            "type": "AI",
+            "name": "Ground Fighting",
+            "front": "ground-fighting.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "lick-wounds",
+            "type": "AI",
+            "name": "Lick Wounds",
+            "front": "lick-wounds.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "maul",
+            "type": "AI",
+            "name": "Maul",
+            "front": "maul.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "smart-cat",
+            "type": "AI",
+            "name": "Smart Cat",
+            "front": "smart-cat.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "terrifying-roar",
+            "type": "AI",
+            "name": "Terrifying Roar",
+            "front": "terrifying-roar.png",
+            "back": "_back.png"
+        }
+    ]
+}

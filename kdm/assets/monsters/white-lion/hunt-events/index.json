@@ -1,0 +1,64 @@
+{
+    "id": "white-lion-hunt-events",
+    "type": "Monster Hunt Events",
+    "name": "White Lion Hunt Events",
+    "base_folder": "monsters/white-lion/hunt-events",
+    "cards": [
+        {
+            "id": "aromatic-breeze",
+            "type": "Monster Hunt Events",
+            "name": "Aromatic Breeze",
+            "front": "aromatic-breeze.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "lion-in-heat",
+            "type": "Monster Hunt Events",
+            "name": "Lion in Heat",
+            "front": "lion-in-heat.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "lion-s-sculpture",
+            "type": "Monster Hunt Events",
+            "name": "Lion's Sculpture",
+            "front": "lion-s-sculpture.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "marked-territory",
+            "type": "Monster Hunt Events",
+            "name": "Marked Territory",
+            "front": "marked-territory.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "prowling-lion",
+            "type": "Monster Hunt Events",
+            "name": "Prowling Lion",
+            "front": "prowling-lion.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "scratching-grounds",
+            "type": "Monster Hunt Events",
+            "name": "Scratching Grounds",
+            "front": "scratching-grounds.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "sea-of-golden-grass",
+            "type": "Monster Hunt Events",
+            "name": "Sea of Golden Grass",
+            "front": "sea-of-golden-grass.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "white-lion-cub",
+            "type": "Monster Hunt Events",
+            "name": "White Lion Cub",
+            "front": "white-lion-cub.png",
+            "back": "_back.png"
+        }
+    ]
+}

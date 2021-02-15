@@ -1,0 +1,169 @@
+{
+    "id": "white-lion-hit-locations",
+    "type": "Hit Locations",
+    "name": "White Lion Hit Locations",
+    "base_folder": "monsters/white-lion/hit-locations",
+    "cards": [
+        {
+            "id": "beast-s-back",
+            "type": "Hit Locations",
+            "name": "Beast's Back",
+            "front": "beast-s-back.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "beast-s-brow",
+            "type": "Hit Locations",
+            "name": "Beast's Brow",
+            "front": "beast-s-brow.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "beast-s-chest",
+            "type": "Hit Locations",
+            "name": "Beast's Chest",
+            "front": "beast-s-chest.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "beast-s-ear",
+            "type": "Hit Locations",
+            "name": "Beast's Ear",
+            "front": "beast-s-ear.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "beast-s-elbow",
+            "type": "Hit Locations",
+            "name": "Beast's Elbow",
+            "front": "beast-s-elbow.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "beast-s-femur",
+            "type": "Hit Locations",
+            "name": "Beast's Femur",
+            "front": "beast-s-femur.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "beast-s-flank",
+            "type": "Hit Locations",
+            "name": "Beast's Flank",
+            "front": "beast-s-flank.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "beast-s-heel",
+            "type": "Hit Locations",
+            "name": "Beast's Heel",
+            "front": "beast-s-heel.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "beast-s-knee",
+            "type": "Hit Locations",
+            "name": "Beast's Knee",
+            "front": "beast-s-knee.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "beast-s-maw",
+            "type": "Hit Locations",
+            "name": "Beast's Maw",
+            "front": "beast-s-maw.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "beast-s-paw",
+            "type": "Hit Locations",
+            "name": "Beast's Paw",
+            "front": "beast-s-paw.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "beast-s-ribs",
+            "type": "",
+            "name": "Beast's Ribs",
+            "front": "beast-s-ribs.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "beast-s-scapular-deltoid",
+            "type": "Hit Locations",
+            "name": "Beast's Scapular Deltoid",
+            "front": "beast-s-scapular-deltoid.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "beast-s-tail",
+            "type": "Hit Locations",
+            "name": "Beast's Tail",
+            "front": "beast-s-tail.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "beast-s-temple",
+            "type": "Hit Locations",
+            "name": "Beast's Temple",
+            "front": "beast-s-temple.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "beast-s-tricep",
+            "type": "Hit Locations",
+            "name": "Beast's Tricep",
+            "front": "beast-s-tricep.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "clever-ploy",
+            "type": "Hit Locations",
+            "name": "Clever Ploy",
+            "front": "clever-ploy.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "fleshy-gut",
+            "type": "Hit Locations",
+            "name": "Fleshy Gut",
+            "front": "fleshy-gut.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "fuzzy-groin",
+            "type": "Hit Locations",
+            "name": "Fuzzy Groin",
+            "front": "fuzzy-groin.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "glorious-mane",
+            "type": "Hit Locations",
+            "name": "Glorious Mane",
+            "front": "glorious-mane.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "soft-belly",
+            "type": "Hit Locations",
+            "name": "Soft Belly",
+            "front": "soft-belly.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "straining-neck",
+            "type": "Hit Locations",
+            "name": "Straining Neck",
+            "front": "straining-neck.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "strange-hand",
+            "type": "Hit Locations",
+            "name": "Strange Hand",
+            "front": "strange-hand.png",
+            "back": "_back.png"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "white-lion-legendary-ai",
+    "type": "AI",
+    "name": "White Lion Legendary AI",
+    "base_folder": "monsters/white-lion/legendary-ai",
+    "cards": [
+        {
+            "id": "golden-eyes",
+            "type": "AI",
+            "name": "Golden Eyes",
+            "front": "golden-eyes.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "vanish",
+            "type": "AI",
+            "name": "Vanish",
+            "front": "vanish.png",
+            "back": "_back.png"
+        }
+    ]
+}

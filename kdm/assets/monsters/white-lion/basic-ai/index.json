@@ -1,0 +1,92 @@
+{
+    "id": "white-lion-basic-ai",
+    "type": "AI",
+    "name": "White Lion Basic AI",
+    "base_folder": "monsters/white-lion/basic-ai",
+    "cards": [
+        {
+            "id": "bat-around",
+            "type": "AI",
+            "name": "Bat Around",
+            "front": "bat-around.png",
+            "back": "_back-basic-ai.png"
+        },
+        {
+            "id": "chomp",
+            "type": "AI",
+            "name": "Chomp",
+            "front": "chomp.png",
+            "back": "_back-basic-ai.png"
+        },
+        {
+            "id": "claw",
+            "type": "AI",
+            "name": "Claw",
+            "front": "claw.png",
+            "back": "_back-basic-ai.png"
+        },
+        {
+            "id": "claw",
+            "type": "AI",
+            "name": "Claw",
+            "front": "claw.png",
+            "back": "_back-basic-ai.png"
+        },
+        {
+            "id": "combo-claw",
+            "type": "AI",
+            "name": "Combo Claw",
+            "front": "combo-claw.png",
+            "back": "_back-basic-ai.png"
+        },
+        {
+            "id": "grasp",
+            "type": "AI",
+            "name": "Grasp",
+            "front": "grasp.png",
+            "back": "_back-basic-ai.png"
+        },
+        {
+            "id": "grasp",
+            "type": "AI",
+            "name": "Grasp",
+            "front": "grasp.png",
+            "back": "_back-basic-ai.png"
+        },
+        {
+            "id": "power-swat",
+            "type": "AI",
+            "name": "Power Swat",
+            "front": "power-swat.png",
+            "back": "_back-basic-ai.png"
+        },
+        {
+            "id": "revenge",
+            "type": "AI",
+            "name": "Revenge",
+            "front": "revenge.png",
+            "back": "_back-basic-ai.png"
+        },
+        {
+            "id": "size-up",
+            "type": "AI",
+            "name": "Size Up",
+            "front": "size-up.png",
+            "back": "_back-basic-ai.png"
+        },
+        {
+            "id": "size-up",
+            "type": "AI",
+            "name": "Size Up",
+            "front": "size-up.png",
+            "back": "_back-basic-ai.png"
+        },
+        {
+            "id": "vicious-claw",
+            "type": "AI",
+            "name": "Vicious Claw",
+            "front": "vicious-claw.png",
+            "back": "_back-basic-ai.png"
+        }
+    ]
+}

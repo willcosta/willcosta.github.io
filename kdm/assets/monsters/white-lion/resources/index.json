@@ -1,0 +1,141 @@
+{
+    "id": "white-lion-resources",
+    "type": "Monster Resources",
+    "name": "White Lion Resources",
+    "base_folder": "monsters/white-lion/resources",
+    "cards": [
+        {
+            "id": "curious-hand",
+            "type": "Monster Resources",
+            "name": "Curious Hand",
+            "front": "curious-hand.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "eye-of-cat",
+            "type": "Monster Resources",
+            "name": "Eye of Cat",
+            "front": "eye-of-cat.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "golden-whiskers",
+            "type": "Monster Resources",
+            "name": "Golden Whiskers",
+            "front": "golden-whiskers.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "great-cat-bones",
+            "type": "Monster Resources",
+            "name": "Great Cat Bones",
+            "front": "great-cat-bones.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "great-cat-bones",
+            "type": "Monster Resources",
+            "name": "Great Cat Bones",
+            "front": "great-cat-bones.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "great-cat-bones",
+            "type": "Monster Resources",
+            "name": "Great Cat Bones",
+            "front": "great-cat-bones.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "great-cat-bones",
+            "type": "Monster Resources",
+            "name": "Great Cat Bones",
+            "front": "great-cat-bones.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "lion-claw",
+            "type": "Monster Resources",
+            "name": "Lion Claw",
+            "front": "lion-claw.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "lion-claw",
+            "type": "Monster Resources",
+            "name": "Lion Claw",
+            "front": "lion-claw.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "lion-claw",
+            "type": "Monster Resources",
+            "name": "Lion Claw",
+            "front": "lion-claw.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "lion-tail",
+            "type": "Monster Resources",
+            "name": "Lion Tail",
+            "front": "lion-tail.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "lion-testes",
+            "type": "Monster Resources",
+            "name": "Lion Testes",
+            "front": "lion-testes.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "shimmering-mane",
+            "type": "Monster Resources",
+            "name": "Shimmering Mane",
+            "front": "shimmering-mane.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "sinew",
+            "type": "Monster Resources",
+            "name": "Sinew",
+            "front": "sinew.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "sinew",
+            "type": "Monster Resources",
+            "name": "Sinew",
+            "front": "sinew.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "white-fur",
+            "type": "Monster Resources",
+            "name": "White Fur",
+            "front": "white-fur.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "white-fur",
+            "type": "Monster Resources",
+            "name": "White Fur",
+            "front": "white-fur.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "white-fur",
+            "type": "Monster Resources",
+            "name": "White Fur",
+            "front": "white-fur.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "white-fur",
+            "type": "Monster Resources",
+            "name": "White Fur",
+            "front": "white-fur.png",
+            "back": "_back.png"
+        }
+    ]
+}

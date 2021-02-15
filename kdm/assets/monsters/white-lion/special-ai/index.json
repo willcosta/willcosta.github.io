@@ -1,0 +1,22 @@
+{
+    "id": "white-lion-special-ai",
+    "type": "AI",
+    "name": "White Lion Special AI",
+    "base_folder": "monsters/white-lion/special-ai",
+    "cards": [
+        {
+            "id": "cunning",
+            "type": "AI",
+            "name": "Cunning",
+            "front": "cunning.png",
+            "back": "_back.png"
+        },
+        {
+            "id": "merciless",
+            "type": "AI",
+            "name": "Merciless",
+            "front": "merciless.png",
+            "back": "_back.png"
+        }
+    ]
+}
