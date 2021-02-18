@@ -1,0 +1,15 @@
+{
+    "id": "white-lion-reference",
+    "type": "AI",
+    "name": "White Lion Reference",
+    "base_folder": "monsters/white-lion/reference",
+    "cards": [
+        {
+            "id": "basic-action",
+            "type": "AI",
+            "name": "Basic Action",
+            "front": "basic-action.webp",
+            "back": "reference-card.webp"
+        }
+    ]
+}
