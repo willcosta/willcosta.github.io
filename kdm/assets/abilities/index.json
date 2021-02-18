@@ -1,0 +1,322 @@
+{
+    "id": "core-abilities",
+    "type": "Abilities",
+    "name": "Core Abilities",
+    "cards": [
+        {
+            "id": "acceleration",
+            "type": "Abilities",
+            "name": "Acceleration",
+            "front": "acceleration.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "acid-palms",
+            "type": "Abilities",
+            "name": "Acid Palms",
+            "front": "acid-palms.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "ageless",
+            "type": "Abilities",
+            "name": "Ageless",
+            "front": "ageless.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "aggression-overload",
+            "type": "Abilities",
+            "name": "Aggression Overload",
+            "front": "aggression-overload.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "analyze",
+            "type": "Abilities",
+            "name": "Analyze",
+            "front": "analyze.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "bitter-frenzy",
+            "type": "Abilities",
+            "name": "Bitter Frenzy",
+            "front": "bitter-frenzy.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "burnt-nerves",
+            "type": "Abilities",
+            "name": "Burnt Nerves",
+            "front": "burnt-nerves.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "caratosis",
+            "type": "Abilities",
+            "name": "Caratosis",
+            "front": "caratosis.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "crystal-skin",
+            "type": "Abilities",
+            "name": "Crystal Skin",
+            "front": "crystal-skin.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "dead-inside",
+            "type": "Abilities",
+            "name": "Dead Inside",
+            "front": "dead-inside.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "dormenatus",
+            "type": "Abilities",
+            "name": "Dormenatus",
+            "front": "dormenatus.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "endless-babble",
+            "type": "Abilities",
+            "name": "Endless Babble",
+            "front": "endless-babble.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "explore",
+            "type": "Abilities",
+            "name": "Explore",
+            "front": "explore.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "fated-battle",
+            "type": "Abilities",
+            "name": "Fated Battle",
+            "front": "fated-battle.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "foretold-battle",
+            "type": "Abilities",
+            "name": "Foretold Battle",
+            "front": "foretold-battle.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "heart-of-the-storm",
+            "type": "Abilities",
+            "name": "Heart of the Storm",
+            "front": "heart-of-the-storm.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "homing-instinct",
+            "type": "Abilities",
+            "name": "Homing Instinct",
+            "front": "homing-instinct.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "iron-will",
+            "type": "Abilities",
+            "name": "Iron Will",
+            "front": "iron-will.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "legendcaller",
+            "type": "Abilities",
+            "name": "Legendcaller",
+            "front": "legendcaller.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "legs-locked",
+            "type": "Abilities",
+            "name": "Legs Locked",
+            "front": "legs-locked.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "leprosy",
+            "type": "Abilities",
+            "name": "Leprosy",
+            "front": "leprosy.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "leyline-walker",
+            "type": "Abilities",
+            "name": "Leyline Walker",
+            "front": "leyline-walker.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "life-exchange",
+            "type": "Abilities",
+            "name": "Life Exchange",
+            "front": "life-exchange.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "limb-maker",
+            "type": "Abilities",
+            "name": "Limb-maker",
+            "front": "limb-maker.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "lucernae",
+            "type": "Abilities",
+            "name": "Lucernae",
+            "front": "lucernae.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "mad-grade",
+            "type": "Abilities",
+            "name": "Mad Grade",
+            "front": "mad-grade.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "mad-oracle",
+            "type": "Abilities",
+            "name": "Mad Oracle",
+            "front": "mad-oracle.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "marrow-hunger",
+            "type": "Abilities",
+            "name": "Marrow Hunger",
+            "front": "marrow-hunger.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "matchmaker",
+            "type": "Abilities",
+            "name": "Matchmaker",
+            "front": "matchmaker.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "metabolic-surrender",
+            "type": "Abilities",
+            "name": "Metabolic Surrender",
+            "front": "metabolic-surrender.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "metal-maw",
+            "type": "Abilities",
+            "name": "Metal Maw",
+            "front": "metal-maw.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "oracle-s-eye",
+            "type": "Abilities",
+            "name": "Oracle's Eye",
+            "front": "oracle-s-eye.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "partner",
+            "type": "Abilities",
+            "name": "Partner",
+            "front": "partner.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "peerless",
+            "type": "Abilities",
+            "name": "Peerless",
+            "front": "peerless.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "possessed",
+            "type": "Abilities",
+            "name": "Possessed",
+            "front": "possessed.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "prepared",
+            "type": "Abilities",
+            "name": "Prepared",
+            "front": "prepared.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "sour-death",
+            "type": "Abilities",
+            "name": "Sour Death",
+            "front": "sour-death.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "stalwart",
+            "type": "Abilities",
+            "name": "Stalwart",
+            "front": "stalwart.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "story-of-the-forsaker",
+            "type": "Abilities",
+            "name": "Story of the Forsaker",
+            "front": "story-of-the-forsaker.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "story-of-the-goblin",
+            "type": "Abilities",
+            "name": "Story of the Goblin",
+            "front": "story-of-the-goblin.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "story-of-the-young-hero",
+            "type": "Abilities",
+            "name": "Story of the Young Hero",
+            "front": "story-of-the-young-hero.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "sweet-battle",
+            "type": "Abilities",
+            "name": "Sweet Battle",
+            "front": "sweet-battle.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "thundercaller",
+            "type": "Abilities",
+            "name": "Thundercaller",
+            "front": "thundercaller.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "tinker",
+            "type": "Abilities",
+            "name": "Tinker",
+            "front": "tinker.png",
+            "back": "_back-abilities.png"
+        },
+        {
+            "id": "uninhibited-rage",
+            "type": "Abilities",
+            "name": "Uninhibited Rage",
+            "front": "uninhibited-rage.png",
+            "back": "_back-abilities.png"
+        }
+    ]
+}

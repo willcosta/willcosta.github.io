@@ -1,0 +1,485 @@
+{
+    "id": "core-strange-resources",
+    "type": "Strange Resources",
+    "name": "Core Strange Resources",
+    "cards": [
+        {
+            "id": "black-lichen",
+            "type": "resources",
+            "name": "Black Lichen",
+            "front": "black-lichen.png",
+            "back": "_back-strange-resources.png",
+            "desc": "<i class=\"flavor-text\">Malleable, pungent and attractive.</i><br/>You may <b class=\"special-rule\">consume</b> this. If you do, your lips turn grey, your hair whitens, and you become infertile. Gain +1 courage, +1 understanding and suffer the <b class=\"severe-injury waist\">destroyed genitals</b> severe waist injury.",
+            "keywords": [
+                "bone",
+                "organ",
+                "hide",
+                "consumable",
+                "other"
+            ],
+            "copies": 1,
+            "flavor_text": "Malleable, pungent and attractive.",
+            "rules_text": "You may <b class=\"special-rule\">consume</b> this. If you do, your lips turn grey, your hair whitens, and you become infertile. Gain +1 courage, +1 understanding and suffer the <b class=\"severe-injury waist\">destroyed genitals</b> severe waist injury.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Black Lichen",
+            "handle": "black_lichen"
+        },
+        {
+            "id": "cocoon-membrane",
+            "type": "resources",
+            "name": "Cocoon Membrane",
+            "front": "cocoon-membrane.png",
+            "back": "_back-strange-resources.png",
+            "desc": "<i class=\"flavor-text\">Thin copper hairs permeate this jellylike substance. <br/>Lanterns are repelled by the copper hairs, their light bending to avoid them.</i>",
+            "keywords": [
+                "organ",
+                "other"
+            ],
+            "copies": 1,
+            "flavor_text": "Thin copper hairs permeate this jellylike substance. <br/>Lanterns are repelled by the copper hairs, their light bending to avoid them.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Cocoon Membrane",
+            "handle": "cocoon_membrane"
+        },
+        {
+            "id": "elder-cat-teeth",
+            "type": "resources",
+            "name": "Elder Cat Teeth",
+            "front": "elder-cat-teeth.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "bone"
+            ],
+            "desc": "<i class=\"flavor-text\">As sharp as they are strange.</i>",
+            "copies": 1,
+            "flavor_text": "As sharp as they are strange.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Elder Cat Teeth",
+            "handle": "elder_cat_teeth"
+        },
+        {
+            "id": "fresh-acanthus",
+            "type": "resources",
+            "name": "Fresh Acanthus",
+            "front": "fresh-acanthus.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "herb"
+            ],
+            "desc": "Archive this to fully heal 1 hit location, including injury levels and armor points.",
+            "copies": 4,
+            "rules_text": "Archive this to fully heal 1 hit location, including injury levels and armor points.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Fresh Acanthus",
+            "handle": "fresh_acanthus"
+        },
+        {
+            "id": "fresh-acanthus",
+            "type": "resources",
+            "name": "Fresh Acanthus",
+            "front": "fresh-acanthus.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "herb"
+            ],
+            "desc": "Archive this to fully heal 1 hit location, including injury levels and armor points.",
+            "copies": 4,
+            "rules_text": "Archive this to fully heal 1 hit location, including injury levels and armor points.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Fresh Acanthus",
+            "handle": "fresh_acanthus"
+        },
+        {
+            "id": "fresh-acanthus",
+            "type": "resources",
+            "name": "Fresh Acanthus",
+            "front": "fresh-acanthus.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "herb"
+            ],
+            "desc": "Archive this to fully heal 1 hit location, including injury levels and armor points.",
+            "copies": 4,
+            "rules_text": "Archive this to fully heal 1 hit location, including injury levels and armor points.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Fresh Acanthus",
+            "handle": "fresh_acanthus"
+        },
+        {
+            "id": "fresh-acanthus",
+            "type": "resources",
+            "name": "Fresh Acanthus",
+            "front": "fresh-acanthus.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "herb"
+            ],
+            "desc": "Archive this to fully heal 1 hit location, including injury levels and armor points.",
+            "copies": 4,
+            "rules_text": "Archive this to fully heal 1 hit location, including injury levels and armor points.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Fresh Acanthus",
+            "handle": "fresh_acanthus"
+        },
+        {
+            "id": "hooked-claw",
+            "type": "resources",
+            "name": "Hooked Claw",
+            "front": "hooked-claw.png",
+            "back": "_back-strange-resources.png",
+            "expansion": "vignettes_of_death_white_gigalion",
+            "flavor_text": "Stained with flecks of ancient dried blood and ossified hair",
+            "keywords": [
+                "bone"
+            ],
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Hooked Claw (Vignettes Of Death White Gigalion)",
+            "handle": "hooked_claw",
+            "desc": ""
+        },
+        {
+            "id": "hooked-claw",
+            "type": "resources",
+            "name": "Hooked Claw",
+            "front": "hooked-claw.png",
+            "back": "_back-strange-resources.png",
+            "expansion": "vignettes_of_death_white_gigalion",
+            "flavor_text": "Stained with flecks of ancient dried blood and ossified hair",
+            "keywords": [
+                "bone"
+            ],
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Hooked Claw (Vignettes Of Death White Gigalion)",
+            "handle": "hooked_claw",
+            "desc": ""
+        },
+        {
+            "id": "iron",
+            "type": "resources",
+            "name": "Iron",
+            "front": "iron.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "scrap"
+            ],
+            "desc": "<i class=\"flavor-text\">Harder than bone.</i>",
+            "copies": 8,
+            "flavor_text": "Harder than bone.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Iron",
+            "handle": "iron"
+        },
+        {
+            "id": "iron",
+            "type": "resources",
+            "name": "Iron",
+            "front": "iron.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "scrap"
+            ],
+            "desc": "<i class=\"flavor-text\">Harder than bone.</i>",
+            "copies": 8,
+            "flavor_text": "Harder than bone.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Iron",
+            "handle": "iron"
+        },
+        {
+            "id": "iron",
+            "type": "resources",
+            "name": "Iron",
+            "front": "iron.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "scrap"
+            ],
+            "desc": "<i class=\"flavor-text\">Harder than bone.</i>",
+            "copies": 8,
+            "flavor_text": "Harder than bone.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Iron",
+            "handle": "iron"
+        },
+        {
+            "id": "iron",
+            "type": "resources",
+            "name": "Iron",
+            "front": "iron.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "scrap"
+            ],
+            "desc": "<i class=\"flavor-text\">Harder than bone.</i>",
+            "copies": 8,
+            "flavor_text": "Harder than bone.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Iron",
+            "handle": "iron"
+        },
+        {
+            "id": "iron",
+            "type": "resources",
+            "name": "Iron",
+            "front": "iron.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "scrap"
+            ],
+            "desc": "<i class=\"flavor-text\">Harder than bone.</i>",
+            "copies": 8,
+            "flavor_text": "Harder than bone.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Iron",
+            "handle": "iron"
+        },
+        {
+            "id": "iron",
+            "type": "resources",
+            "name": "Iron",
+            "front": "iron.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "scrap"
+            ],
+            "desc": "<i class=\"flavor-text\">Harder than bone.</i>",
+            "copies": 8,
+            "flavor_text": "Harder than bone.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Iron",
+            "handle": "iron"
+        },
+        {
+            "id": "iron",
+            "type": "resources",
+            "name": "Iron",
+            "front": "iron.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "scrap"
+            ],
+            "desc": "<i class=\"flavor-text\">Harder than bone.</i>",
+            "copies": 8,
+            "flavor_text": "Harder than bone.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Iron",
+            "handle": "iron"
+        },
+        {
+            "id": "iron",
+            "type": "resources",
+            "name": "Iron",
+            "front": "iron.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "scrap"
+            ],
+            "desc": "<i class=\"flavor-text\">Harder than bone.</i>",
+            "copies": 8,
+            "flavor_text": "Harder than bone.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Iron",
+            "handle": "iron"
+        },
+        {
+            "id": "lantern-tube",
+            "type": "resources",
+            "name": "Lantern Tube",
+            "front": "lantern-tube.png",
+            "back": "_back-strange-resources.png",
+            "desc": "<i class=\"flavor-text\">A fleshy, muscle-lined tube.</i> <br/>When you gain this, roll 1d10. On a 6+ you find something stuck inside! Add 1 <b class=\"resource basic-resource\">Broken Lantern</b> basic resource to the settlement's storage.",
+            "keywords": [
+                "organ",
+                "scrap"
+            ],
+            "copies": 1,
+            "flavor_text": "A fleshy, muscle-lined tube.",
+            "rules_text": "When you gain this, roll 1d10. On a 6+ you find something stuck inside! Add 1 <b class=\"resource basic-resource\">Broken Lantern</b> basic resource to the settlement's storage.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Lantern Tube",
+            "handle": "lantern_tube"
+        },
+        {
+            "id": "leather",
+            "type": "resources",
+            "name": "Leather",
+            "front": "leather.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "hide"
+            ],
+            "desc": "<i class=\"flavor-text\">Never goes out of style.</i>",
+            "copies": 4,
+            "flavor_text": "Never goes out of style.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Leather",
+            "handle": "leather"
+        },
+        {
+            "id": "leather",
+            "type": "resources",
+            "name": "Leather",
+            "front": "leather.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "hide"
+            ],
+            "desc": "<i class=\"flavor-text\">Never goes out of style.</i>",
+            "copies": 4,
+            "flavor_text": "Never goes out of style.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Leather",
+            "handle": "leather"
+        },
+        {
+            "id": "leather",
+            "type": "resources",
+            "name": "Leather",
+            "front": "leather.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "hide"
+            ],
+            "desc": "<i class=\"flavor-text\">Never goes out of style.</i>",
+            "copies": 4,
+            "flavor_text": "Never goes out of style.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Leather",
+            "handle": "leather"
+        },
+        {
+            "id": "leather",
+            "type": "resources",
+            "name": "Leather",
+            "front": "leather.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "hide"
+            ],
+            "desc": "<i class=\"flavor-text\">Never goes out of style.</i>",
+            "copies": 4,
+            "flavor_text": "Never goes out of style.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Leather",
+            "handle": "leather"
+        },
+        {
+            "id": "legendary-horns",
+            "type": "resources",
+            "name": "Legendary Horns",
+            "front": "legendary-horns.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "bone",
+                "scrap"
+            ],
+            "desc": "<i class=\"flavor-text\">Holding them fills you with power.</i>",
+            "copies": 1,
+            "flavor_text": "Holding them fills you with power.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Legendary Horns",
+            "handle": "legendary_horns"
+        },
+        {
+            "id": "perfect-crucible",
+            "type": "resources",
+            "name": "Perfect Crucible",
+            "front": "perfect-crucible.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "iron"
+            ],
+            "desc": "When you craft with Perfect Crucible, an ancient bacteria is released into the air. Suffer -1d10 population and archive this card.",
+            "copies": 1,
+            "rules_text": "When you craft with Perfect Crucible, an ancient bacteria is released into the air. Suffer -1d10 population and archive this card.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Perfect Crucible",
+            "handle": "perfect_crucible"
+        },
+        {
+            "id": "phoenix-crest",
+            "type": "resources",
+            "name": "Phoenix Crest",
+            "front": "phoenix-crest.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "organ"
+            ],
+            "desc": "<i class=\"flavor-text\">Firm and supple.</i>",
+            "copies": 1,
+            "flavor_text": "Firm and supple.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Phoenix Crest",
+            "handle": "phoenix_crest"
+        },
+        {
+            "id": "second-heart",
+            "type": "resources",
+            "name": "Second Heart",
+            "front": "second-heart.png",
+            "back": "_back-strange-resources.png",
+            "keywords": [
+                "organ",
+                "bone"
+            ],
+            "desc": "<i class=\"flavor-text\">It still tries to bite you.</i>",
+            "copies": 1,
+            "flavor_text": "It still tries to bite you.",
+            "sub_type": "strange_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Strange Resources",
+            "selector_text": "Second Heart",
+            "handle": "second_heart"
+        }
+    ]
+}
