@@ -1,0 +1,154 @@
+{
+    "id": "core-settlement-events",
+    "type": "Settlement Events",
+    "name": "Core Settlement Events",
+    "cards": [
+        {
+            "id": "acid-storm",
+            "type": "Settlement Events",
+            "name": "Acid Storm",
+            "front": "acid-storm.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "clinging-mist",
+            "type": "Settlement Events",
+            "name": "Clinging Mist",
+            "front": "clinging-mist.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "cracks-in-the-ground",
+            "type": "Settlement Events",
+            "name": "Cracks in the Ground",
+            "front": "cracks-in-the-ground.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "dark-dentist",
+            "type": "Settlement Events",
+            "name": "Dark Dentist",
+            "front": "dark-dentist.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "dark-trader",
+            "type": "Settlement Events",
+            "name": "Dark Trader",
+            "front": "dark-trader.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "elder-council",
+            "type": "Settlement Events",
+            "name": "Elder Council",
+            "front": "elder-council.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "first-day",
+            "type": "Settlement Events",
+            "name": "First Day",
+            "front": "first-day.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "glossolalia",
+            "type": "Settlement Events",
+            "name": "Glossolalia",
+            "front": "glossolalia.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "haunted",
+            "type": "Settlement Events",
+            "name": "Haunted",
+            "front": "haunted.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "heat-wave",
+            "type": "Settlement Events",
+            "name": "Heat Wave",
+            "front": "heat-wave.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "hunt-reenactment",
+            "type": "Settlement Events",
+            "name": "Hunt Reenactment",
+            "front": "hunt-reenactment.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "lights-in-the-sky",
+            "type": "Settlement Events",
+            "name": "Lights in the Sky",
+            "front": "lights-in-the-sky.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "murder",
+            "type": "Settlement Events",
+            "name": "Murder",
+            "front": "murder.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "nickname",
+            "type": "Settlement Events",
+            "name": "Nickname",
+            "front": "nickname.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "open-maw",
+            "type": "Settlement Events",
+            "name": "Open Maw",
+            "front": "open-maw.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "plague",
+            "type": "Settlement Events",
+            "name": "Plague",
+            "front": "plague.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "rivalry",
+            "type": "Settlement Events",
+            "name": "Rivalry",
+            "front": "rivalry.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "skull-eater",
+            "type": "Settlement Events",
+            "name": "Skull Eater",
+            "front": "skull-eater.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "stranger-in-the-dark",
+            "type": "Settlement Events",
+            "name": "Stranger in the Dark",
+            "front": "stranger-in-the-dark.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "triathlon-of-death",
+            "type": "Settlement Events",
+            "name": "Triathlon of Death",
+            "front": "triathlon-of-death.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "weird-dream",
+            "type": "Settlement Events",
+            "name": "Weird Dream",
+            "front": "weird-dream.webp",
+            "back": "_back.webp"
+        }
+    ]
+}
