@@ -1,0 +1,277 @@
+{
+    "id": "barber-surgeon-gear",
+    "type": "Gear",
+    "name": "Barber Surgeon Gear",
+    "cards": [
+        {
+            "id": "almanac",
+            "type": "gear",
+            "name": "Almanac",
+            "front": "almanac.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "soluble",
+                "flammable"
+            ],
+            "desc": "When you <b>depart</b>, gain +2 insanity.<br/>You cannot gain disorders.",
+            "affinities": {
+                "right": "blue"
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "barber_surgeon"
+                    ],
+                    "resource_types": {
+                        "leather": 2
+                    },
+                    "innovations": [
+                        "pictograph"
+                    ]
+                }
+            ],
+            "sub_type": "barber_surgeon",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Barber Surgeon",
+            "selector_text": "Almanac",
+            "handle": "almanac",
+            "rules": []
+        },
+        {
+            "id": "brain-mint",
+            "type": "gear",
+            "name": "Brain Mint",
+            "front": "brain-mint.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "consumable"
+            ],
+            "affinities": {
+                "left": "blue",
+                "top": "green"
+            },
+            "desc": "<font class=\"kdm_font\">a</font> <b>Consume:</b> Remove all your tokens and stand up. You may use this while knocked down. Use once per showdown.",
+            "recipes": [
+                {
+                    "locations": [
+                        "barber_surgeon"
+                    ],
+                    "resource_handles": {
+                        "screaming_brain": 1
+                    }
+                }
+            ],
+            "sub_type": "barber_surgeon",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Barber Surgeon",
+            "selector_text": "Brain Mint",
+            "handle": "brain_mint",
+            "rules": []
+        },
+        {
+            "id": "bug-trap",
+            "type": "gear",
+            "name": "Bug Trap",
+            "front": "bug-trap.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "soluble"
+            ],
+            "desc": "At the start of the showdown, roll 1d10. On a 3+, add a <b>Bug Patch</b> terrain card to the showdown board.",
+            "recipes": [
+                {
+                    "locations": [
+                        "barber_surgeon"
+                    ],
+                    "resource_handles": {
+                        "muscly_gums": 1
+                    },
+                    "resource_types": {
+                        "bone": 2
+                    }
+                }
+            ],
+            "sub_type": "barber_surgeon",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Barber Surgeon",
+            "selector_text": "Bug Trap",
+            "handle": "bug_trap",
+            "rules": []
+        },
+        {
+            "id": "elder-earrings",
+            "type": "gear",
+            "name": "Elder Earrings",
+            "front": "elder-earrings.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "jewelry"
+            ],
+            "affinities": {
+                "left": "red",
+                "right": "green",
+                "bottom": "blue"
+            },
+            "desc": "At the start of the <b>showdown</b>, gain +2 survival. +1 Hunt XP after a showdown.",
+            "recipes": [
+                {
+                    "locations": [
+                        "barber_surgeon"
+                    ],
+                    "resource_handles": {
+                        "shank_bone": 1
+                    },
+                    "resource_types": {
+                        "scrap": 1
+                    }
+                }
+            ],
+            "sub_type": "barber_surgeon",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Barber Surgeon",
+            "selector_text": "Elder Earrings",
+            "handle": "elder_earrings",
+            "rules": []
+        },
+        {
+            "id": "first-aid-kit",
+            "type": "gear",
+            "name": "First Aid Kit",
+            "front": "first-aid-kit.webp",
+            "back": "_back.webp",
+            "affinities": {
+                "top": "green",
+                "left": "green",
+                "right": "green",
+                "bottom": "green"
+            },
+            "keywords": [
+                "item",
+                "heavy"
+            ],
+            "desc": "On <b>Arrival</b>, all survivors gain +3 survival.<br/><font class=\"kdm_font\">a</font>: Remove 1 bleeding or negative attribute token from yourself or an adjacent survivor.",
+            "recipes": [
+                {
+                    "locations": [
+                        "barber_surgeon"
+                    ],
+                    "resource_types": {
+                        "leather": 1,
+                        "bone": 2
+                    }
+                }
+            ],
+            "sub_type": "barber_surgeon",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Barber Surgeon",
+            "selector_text": "First Aid Kit",
+            "handle": "first_aid_kit",
+            "rules": []
+        },
+        {
+            "id": "musk-bomb",
+            "type": "gear",
+            "name": "Musk Bomb",
+            "front": "musk-bomb.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "stinky",
+                "thrown",
+                "fragile"
+            ],
+            "desc": "If adjacent to monster when it draws <font class=\"kdm_font_10\">b</font>, you may spend 2 survival and archive Musk Bomb to roll 1d10. On a 3+, discard <font class=\"kdm_font_10\">b</font> without playing it.",
+            "recipes": [
+                {
+                    "locations": [
+                        "barber_surgeon"
+                    ],
+                    "prefix_text": "7x resources",
+                    "innovations": [
+                        "pottery"
+                    ]
+                }
+            ],
+            "sub_type": "barber_surgeon",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Barber Surgeon",
+            "selector_text": "Musk Bomb",
+            "handle": "musk_bomb",
+            "rules": []
+        },
+        {
+            "id": "scavenger-kit",
+            "type": "gear",
+            "name": "Scavenger Kit",
+            "front": "scavenger-kit.webp",
+            "back": "_back.webp",
+            "affinities": {
+                "bottom": "green"
+            },
+            "keywords": [
+                "item",
+                "heavy"
+            ],
+            "rules": [
+                "Unique"
+            ],
+            "desc": "When you defeat a monster, gain either 1 random basic resource or 1 random monster resource from that monster's resource deck.",
+            "recipes": [
+                {
+                    "locations": [
+                        "barber_surgeon"
+                    ],
+                    "resource_types": {
+                        "scrap": 1
+                    },
+                    "resource_handles": {
+                        "pelt": 1
+                    }
+                }
+            ],
+            "sub_type": "barber_surgeon",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Barber Surgeon",
+            "selector_text": "Scavenger Kit",
+            "handle": "scavenger_kit"
+        },
+        {
+            "id": "speed-powder",
+            "type": "gear",
+            "name": "Speed Powder",
+            "front": "speed-powder.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "soluble"
+            ],
+            "desc": "<font class=\"kdm_font\">a</font>: Suffer 2 brain damage. Gain +1 speed token. Use once per showdown.",
+            "affinities": {
+                "right": "blue"
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "barber_surgeon"
+                    ],
+                    "resource_types": {
+                        "organ": 2
+                    },
+                    "resource_handles": {
+                        "second_heart": 1
+                    }
+                }
+            ],
+            "sub_type": "barber_surgeon",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Barber Surgeon",
+            "selector_text": "Speed Powder",
+            "handle": "speed_powder",
+            "rules": []
+        }
+    ]
+}

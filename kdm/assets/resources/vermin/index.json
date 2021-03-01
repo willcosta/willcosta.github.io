@@ -1,0 +1,165 @@
+{
+    "id": "core-vermin",
+    "type": "Vermin",
+    "name": "Core Vermin",
+    "cards": [
+        {
+            "id": "crab-spider",
+            "type": "resources",
+            "name": "Crab Spider",
+            "front": "crab-spider.png",
+            "back": "_back-vermin.png",
+            "desc": "<b class=\"special-rule\">Consume:</b> Archive this and gain +3 survival.",
+            "keywords": [
+                "hide",
+                "vermin",
+                "consumable"
+            ],
+            "copies": 3,
+            "rules_text": "<b class=\"special-rule\">Consume:</b> Archive this and gain +3 survival.",
+            "sub_type": "vermin",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Vermin",
+            "selector_text": "Crab Spider",
+            "handle": "crab_spider"
+        },
+        {
+            "id": "crab-spider",
+            "type": "resources",
+            "name": "Crab Spider",
+            "front": "crab-spider.png",
+            "back": "_back-vermin.png",
+            "desc": "<b class=\"special-rule\">Consume:</b> Archive this and gain +3 survival.",
+            "keywords": [
+                "hide",
+                "vermin",
+                "consumable"
+            ],
+            "copies": 3,
+            "rules_text": "<b class=\"special-rule\">Consume:</b> Archive this and gain +3 survival.",
+            "sub_type": "vermin",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Vermin",
+            "selector_text": "Crab Spider",
+            "handle": "crab_spider"
+        },
+        {
+            "id": "crab-spider",
+            "type": "resources",
+            "name": "Crab Spider",
+            "front": "crab-spider.png",
+            "back": "_back-vermin.png",
+            "desc": "<b class=\"special-rule\">Consume:</b> Archive this and gain +3 survival.",
+            "keywords": [
+                "hide",
+                "vermin",
+                "consumable"
+            ],
+            "copies": 3,
+            "rules_text": "<b class=\"special-rule\">Consume:</b> Archive this and gain +3 survival.",
+            "sub_type": "vermin",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Vermin",
+            "selector_text": "Crab Spider",
+            "handle": "crab_spider"
+        },
+        {
+            "id": "cyclops-fly",
+            "type": "resources",
+            "name": "Cyclops Fly",
+            "front": "cyclops-fly.png",
+            "back": "_back-vermin.png",
+            "desc": "<b class=\"special-rule\">Consume:</b> Archive this and roll 1d10.<br/><table class=\"roll-table\"><tr class=\"zebra\"><td class=\"roll\">1-3</td><td class=\"result\">The fly's eye explodes, releasing acids that melt your insides. You die.</td></tr><tr><td class=\"roll\">4-5</td><td class=\"result\">Slight citrus flavor. No effect.</td></tr><tr class=\"zebra\"><td class=\"roll\">6+</td><td class=\"result\">Gain +1 permanent accuracy.</td></tr></table>",
+            "keywords": [
+                "vermin",
+                "consumable"
+            ],
+            "copies": 1,
+            "rules_text": "<b class=\"special-rule\">Consume:</b> Archive this and roll 1d10.",
+            "rules_table": "<table class=\"roll-table\"><tr class=\"zebra\"><td class=\"roll\">1-3</td><td class=\"result\">The fly's eye explodes, releasing acids that melt your insides. You die.</td></tr><tr><td class=\"roll\">4-5</td><td class=\"result\">Slight citrus flavor. No effect.</td></tr><tr class=\"zebra\"><td class=\"roll\">6+</td><td class=\"result\">Gain +1 permanent accuracy.</td></tr></table>",
+            "sub_type": "vermin",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Vermin",
+            "selector_text": "Cyclops Fly",
+            "handle": "cyclops_fly"
+        },
+        {
+            "id": "hissing-cockroach",
+            "type": "resources",
+            "name": "Hissing Cockroach",
+            "front": "hissing-cockroach.png",
+            "back": "_back-vermin.png",
+            "keywords": [
+                "vermin",
+                "consumable"
+            ],
+            "desc": "<b class=\"special-rule\">Consume:</b> Archive this to lose all survival and gain 2d10 insanity.<br/>If you are insane, you must consume this.",
+            "copies": 1,
+            "rules_text": "<b class=\"special-rule\">Consume:</b> Archive this to lose all survival and gain 2d10 insanity.<br/>If you are insane, you must consume this.",
+            "sub_type": "vermin",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Vermin",
+            "selector_text": "Hissing Cockroach",
+            "handle": "hissing_cockroach"
+        },
+        {
+            "id": "lonely-ant",
+            "type": "resources",
+            "name": "Lonely Ant",
+            "front": "lonely-ant.png",
+            "back": "_back-vermin.png",
+            "keywords": [
+                "vermin",
+                "consumable"
+            ],
+            "desc": "<b class=\"special-rule\">Consume:</b> Archive this to swap your insanity and survival values.",
+            "copies": 1,
+            "rules_text": "<b class=\"special-rule\">Consume:</b> Archive this to swap your insanity and survival values.",
+            "sub_type": "vermin",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Vermin",
+            "selector_text": "Lonely Ant",
+            "handle": "lonely_ant"
+        },
+        {
+            "id": "nightmare-tick",
+            "type": "resources",
+            "name": "Nightmare Tick",
+            "front": "nightmare-tick.png",
+            "back": "_back-vermin.png",
+            "keywords": [
+                "vermin",
+                "consumable"
+            ],
+            "desc": "<b class=\"special-rule\">Consume:</b> Archive this and roll 1d10.<br/><table class=\"roll-table\"><tr class=\"zebra\"><td class=\"roll\">1-3</td><td class=\"result\">The tick grabs the roof of your mouth and sucks all your blood. You die.</td></tr><tr><td class=\"roll\">4-5</td><td class=\"result\">Tastes like iron. No effect.</td></tr><tr class=\"zebra\"><td class=\"roll\">6+</td><td class=\"result\">Gain +1 permanent evasion.</td></tr></table>",
+            "copies": 1,
+            "rules_text": "<b class=\"special-rule\">Consume:</b> Archive this and roll 1d10.",
+            "rules_table": "<table class=\"roll-table\"><tr class=\"zebra\"><td class=\"roll\">1-3</td><td class=\"result\">The tick grabs the roof of your mouth and sucks all your blood. You die.</td></tr><tr><td class=\"roll\">4-5</td><td class=\"result\">Tastes like iron. No effect.</td></tr><tr class=\"zebra\"><td class=\"roll\">6+</td><td class=\"result\">Gain +1 permanent evasion.</td></tr></table>",
+            "sub_type": "vermin",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Vermin",
+            "selector_text": "Nightmare Tick",
+            "handle": "nightmare_tick"
+        },
+        {
+            "id": "sword-beetle",
+            "type": "resources",
+            "name": "Sword Beetle",
+            "front": "sword-beetle.png",
+            "back": "_back-vermin.png",
+            "desc": "<b class=\"special-rule\">Consume:</b> Archive this and roll 1d10.<br/><table class=\"roll-table\"><tr class=\"zebra\"><td class=\"roll\">1-3</td><td class=\"result\">The beetle burrows into your brain. You die instantly.</td></tr><tr><td class=\"roll\">4-5</td><td class=\"result\">Tough and disgusting. No effect.</td></tr><tr class=\"zebra\"><td class=\"roll\">6+</td><td class=\"result\">Gain +1 permanent strength.</td></tr></table>",
+            "keywords": [
+                "vermin",
+                "consumable"
+            ],
+            "copies": 1,
+            "rules_text": "<b class=\"special-rule\">Consume:</b> Archive this and roll 1d10.",
+            "rules_table": "<table class=\"roll-table\"><tr class=\"zebra\"><td class=\"roll\">1-3</td><td class=\"result\">The beetle burrows into your brain. You die instantly.</td></tr><tr><td class=\"roll\">4-5</td><td class=\"result\">Tough and disgusting. No effect.</td></tr><tr class=\"zebra\"><td class=\"roll\">6+</td><td class=\"result\">Gain +1 permanent strength.</td></tr></table>",
+            "sub_type": "vermin",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Vermin",
+            "selector_text": "Sword Beetle",
+            "handle": "sword_beetle"
+        }
+    ]
+}

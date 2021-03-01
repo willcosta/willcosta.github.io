@@ -1,0 +1,423 @@
+{
+    "id": "weapon-crafter-gear",
+    "type": "Gear",
+    "name": "Weapon Crafter Gear",
+    "cards": [
+        {
+            "id": "blood-sheath",
+            "type": "gear",
+            "name": "Blood Sheath",
+            "front": "blood-sheath.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "bone",
+                "other"
+            ],
+            "rules": [
+                "Block 1"
+            ],
+            "desc": "When Rainbow Katana is left of Blood Sheath, it loses <b>Frail</b> and gains <b>Sharp</b> (add 1d10 strength to each wound attempt).",
+            "affinities": {
+                "left": "paired"
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "weapon_crafter"
+                    ],
+                    "resource_handles": {
+                        "hollow_wing_bones": 1,
+                        "muculent_droppings": 1
+                    },
+                    "resource_types": {
+                        "organ": 5
+                    }
+                }
+            ],
+            "sub_type": "weapon_crafter",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Weapon Crafter",
+            "selector_text": "Blood Sheath",
+            "handle": "blood_sheath"
+        },
+        {
+            "id": "counterweighted-axe",
+            "type": "gear",
+            "name": "Counterweighted Axe",
+            "front": "counterweighted-axe.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "axe",
+                "two-handed"
+            ],
+            "rules": [
+                "Reach 2"
+            ],
+            "speed": 2,
+            "accuracy": 6,
+            "strength": 4,
+            "affinities": {
+                "top": "red",
+                "right": "green"
+            },
+            "affinity_bonus": {
+                "desc": "Gains <b>Devastating 1</b>: Whenever you wound, inflict 1 additional wound.",
+                "requires": {
+                    "complete": {
+                        "green": 1
+                    },
+                    "puzzle": {
+                        "red": 1
+                    }
+                }
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "weapon_crafter"
+                    ],
+                    "resource_types": {
+                        "bone": 2,
+                        "hide": 1,
+                        "organ": 1
+                    }
+                }
+            ],
+            "sub_type": "weapon_crafter",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Weapon Crafter",
+            "selector_text": "Counterweighted Axe",
+            "handle": "counterweighted_axe",
+            "desc": ""
+        },
+        {
+            "id": "finger-of-god",
+            "type": "gear",
+            "name": "Finger of God",
+            "front": "finger-of-god.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "spear",
+                "two-handed"
+            ],
+            "rules": [
+                "Reach 2"
+            ],
+            "speed": 2,
+            "accuracy": 5,
+            "strength": 5,
+            "affinities": {
+                "top": "red"
+            },
+            "affinity_bonus": {
+                "desc": "As long as you have 5+ survival, gain +1 accuracy and +1 strength.",
+                "requires": {
+                    "complete": {
+                        "red": 1,
+                        "blue": 1,
+                        "green": 1
+                    }
+                }
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "weapon_crafter"
+                    ],
+                    "resource_handles": {
+                        "phoenix_finger": 1
+                    },
+                    "resource_types": {
+                        "bone": 4
+                    }
+                }
+            ],
+            "sub_type": "weapon_crafter",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Weapon Crafter",
+            "selector_text": "Finger of God",
+            "handle": "finger_of_god",
+            "desc": ""
+        },
+        {
+            "id": "rainbow-katana",
+            "type": "gear",
+            "name": "Rainbow Katana",
+            "front": "rainbow-katana.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "katana",
+                "finesse",
+                "two-handed"
+            ],
+            "rules": [
+                "Frail"
+            ],
+            "speed": 4,
+            "accuracy": 4,
+            "strength": 4,
+            "affinities": {
+                "left": "red"
+            },
+            "affinity_bonus": {
+                "desc": "Gains <b>Deadly</b>.",
+                "requires": {
+                    "complete": {
+                        "green": 1,
+                        "blue": 1
+                    },
+                    "puzzle": {
+                        "red": 1
+                    }
+                }
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "weapon_crafter"
+                    ],
+                    "resource_handles": {
+                        "bird_beak": 1,
+                        "rainbow_droppings": 1
+                    },
+                    "resource_types": {
+                        "iron": 1,
+                        "bone": 6
+                    },
+                    "suffix_text": "<b>Heat</b> Required."
+                }
+            ],
+            "sub_type": "weapon_crafter",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Weapon Crafter",
+            "selector_text": "Rainbow Katana",
+            "handle": "rainbow_katana",
+            "desc": ""
+        },
+        {
+            "id": "scrap-dagger",
+            "type": "gear",
+            "name": "Scrap Dagger",
+            "front": "scrap-dagger.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "dagger",
+                "metal"
+            ],
+            "desc": "On a <b>Perfect hit</b>, the edge sharpens. Gain +2 strength for the rest of the attack.",
+            "speed": 3,
+            "accuracy": 7,
+            "strength": 2,
+            "affinities": {
+                "top": "red",
+                "right": "red"
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "weapon_crafter"
+                    ],
+                    "resource_types": {
+                        "scrap": 1,
+                        "bone": 1
+                    },
+                    "suffix_text": "<b>Heat</b> Required."
+                }
+            ],
+            "sub_type": "weapon_crafter",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Weapon Crafter",
+            "selector_text": "Scrap Dagger",
+            "handle": "scrap_dagger",
+            "rules": []
+        },
+        {
+            "id": "scrap-sword",
+            "type": "gear",
+            "name": "Scrap Sword",
+            "front": "scrap-sword.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "sword",
+                "metal"
+            ],
+            "desc": "On a <b>Perfect hit</b>, the edge sharpens. Gain +4 strength for the rest of the attack.",
+            "speed": 2,
+            "accuracy": 5,
+            "strength": 3,
+            "affinities": {
+                "top": "blue"
+            },
+            "affinity_bonus": {
+                "desc": "Gains <b>Deadly</b>.",
+                "requires": {
+                    "complete": {
+                        "red": 2,
+                        "blue": 1
+                    }
+                }
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "weapon_crafter"
+                    ],
+                    "resource_types": {
+                        "scrap": 1,
+                        "bone": 2
+                    },
+                    "suffix_text": "<b>Heat</b> Required."
+                }
+            ],
+            "sub_type": "weapon_crafter",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Weapon Crafter",
+            "selector_text": "Scrap Sword",
+            "handle": "scrap_sword",
+            "rules": []
+        },
+        {
+            "id": "skullcap-hammer",
+            "type": "gear",
+            "name": "Skullcap Hammer",
+            "front": "skullcap-hammer.webp",
+            "back": "_back.webp",
+            "desc": "On a <b>Perfect Hit</b>, the monster is dazed, and gains -1 speed token until the end of its turn. A monster can be dazed once per round.",
+            "keywords": [
+                "weapon",
+                "melee",
+                "club",
+                "bone"
+            ],
+            "speed": 2,
+            "accuracy": 7,
+            "strength": 3,
+            "affinities": {
+                "bottom": "green"
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "weapon_crafter"
+                    ],
+                    "resource_types": {
+                        "scrap": 1,
+                        "bone": 2
+                    }
+                }
+            ],
+            "sub_type": "weapon_crafter",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Weapon Crafter",
+            "selector_text": "Skullcap Hammer",
+            "handle": "skullcap_hammer",
+            "rules": []
+        },
+        {
+            "id": "whistling-mace",
+            "type": "gear",
+            "name": "Whistling Mace",
+            "front": "whistling-mace.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "club",
+                "bone"
+            ],
+            "desc": "On a <b>Perfect hit</b>, reveal the next AI card. Place it on top or bottom of the AI deck.<br/><b>Unwieldy:</b> If any attack roll results are 1, you hit yourself and suffer 1 damage.",
+            "rules": [
+                "Unwieldy"
+            ],
+            "speed": 3,
+            "accuracy": 6,
+            "strength": 3,
+            "affinities": {
+                "bottom": "green"
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "weapon_crafter"
+                    ],
+                    "resource_types": {
+                        "organ": 1,
+                        "bone": 2
+                    }
+                }
+            ],
+            "sub_type": "weapon_crafter",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Weapon Crafter",
+            "selector_text": "Whistling Mace",
+            "handle": "whistling_mace"
+        },
+        {
+            "id": "zanbato",
+            "type": "gear",
+            "name": "Zanbato",
+            "front": "zanbato.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "grand weapon",
+                "two-handed",
+                "bone"
+            ],
+            "rules": [
+                "Slow",
+                "Frail",
+                "Deadly"
+            ],
+            "speed": 1,
+            "accuracy": 6,
+            "strength": 6,
+            "affinities": {
+                "top": "red",
+                "right": "green"
+            },
+            "affinity_bonus": {
+                "desc": "Gains <b>Devastating 1:</b> Whenever you wound, inflict 1 additional wound.",
+                "requires": {
+                    "complete": {
+                        "green": 1
+                    },
+                    "puzzle": {
+                        "red": 1
+                    }
+                }
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "weapon_crafter"
+                    ],
+                    "resource_types": {
+                        "hide": 2
+                    },
+                    "resource_handles": {
+                        "great_cat_bone": 1
+                    }
+                }
+            ],
+            "sub_type": "weapon_crafter",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Weapon Crafter",
+            "selector_text": "Zanbato",
+            "handle": "zanbato",
+            "desc": ""
+        }
+    ]
+}

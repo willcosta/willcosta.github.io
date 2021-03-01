@@ -1,0 +1,273 @@
+{
+    "id": "exhausted-lantern-hoard-gear",
+    "type": "Gear",
+    "name": "Exhausted Lantern Hoard Gear",
+    "cards": [
+        {
+            "id": "final-lantern",
+            "type": "gear",
+            "name": "Final Lantern",
+            "front": "final-lantern.webp",
+            "back": "_back-final-lantern.webp",
+            "keywords": [
+                "item",
+                "other"
+            ],
+            "rules": [
+                "Vital"
+            ],
+            "affinities": {
+                "left": "blue",
+                "top": "green"
+            },
+            "desc": "On <b>Arrival</b>, all survivors gain the <b>Horripilation</b> survivor status card. (See the Watcher's AI Deck.) When not <b>insane</b>, flip this card.",
+            "sub_type": "exhausted_lantern_hoard",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Exhausted Lantern Hoard",
+            "selector_text": "Final Lantern",
+            "handle": "final_lantern"
+        },
+        {
+            "id": "oxidized-beacon-shield",
+            "type": "gear",
+            "name": "Oxidized Beacon Shield",
+            "front": "oxidized-beacon-shield.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "shield",
+                "metal",
+                "heavy"
+            ],
+            "speed": 1,
+            "accuracy": 6,
+            "strength": 6,
+            "rules": [
+                "Deflect 2"
+            ],
+            "desc": "Add <font class=\"inline_shield\">2</font> to all hit locations.<br/><b>Deflect 2</b>: Spend <font class=\"kdm_font\">a</font>. You now have exactly 2 deflect tokens. The next 2 times you are hit, ignore a hit and and lose 1 deflect token.",
+            "sub_type": "exhausted_lantern_hoard",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Exhausted Lantern Hoard",
+            "selector_text": "Oxidized Beacon Shield",
+            "handle": "oxidized_beacon_shield"
+        },
+        {
+            "id": "oxidized-lantern-dagger",
+            "type": "gear",
+            "name": "Oxidized Lantern Dagger",
+            "front": "oxidized-lantern-dagger.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "dagger",
+                "finesse",
+                "metal"
+            ],
+            "speed": 3,
+            "accuracy": 6,
+            "strength": 4,
+            "rules": [
+                "Sharp",
+                "Paired"
+            ],
+            "affinities": {
+                "left": "red",
+                "right": "red"
+            },
+            "affinity_bonus": {
+                "desc": "On a <b>Perfect hit</b>, gain +1 survival.",
+                "requires": {
+                    "puzzle": {
+                        "red": 1
+                    },
+                    "complete": {
+                        "red": 1
+                    }
+                }
+            },
+            "sub_type": "exhausted_lantern_hoard",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Exhausted Lantern Hoard",
+            "selector_text": "Oxidized Lantern Dagger",
+            "handle": "oxidized_lantern_dagger",
+            "desc": ""
+        },
+        {
+            "id": "oxidized-lantern-glaive",
+            "type": "gear",
+            "name": "Oxidized Lantern Glaive",
+            "front": "oxidized-lantern-glaive.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "spear",
+                "axe",
+                "two-handed",
+                "finesse",
+                "metal"
+            ],
+            "affinities": {
+                "bottom": "green"
+            },
+            "rules": [
+                "Sharp",
+                "Reach 2"
+            ],
+            "speed": 2,
+            "accuracy": 5,
+            "strength": 6,
+            "affinity_bonus": {
+                "desc": "On a <b>Perfect hit</b>, the edge sharpens. This weapon gains +4 strength for this attack.",
+                "requires": {
+                    "puzzle": {
+                        "green": 1
+                    },
+                    "complete": {
+                        "red": 1
+                    }
+                }
+            },
+            "sub_type": "exhausted_lantern_hoard",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Exhausted Lantern Hoard",
+            "selector_text": "Oxidized Lantern Glaive",
+            "handle": "oxidized_lantern_glaive",
+            "desc": ""
+        },
+        {
+            "id": "oxidized-lantern-helm",
+            "type": "gear",
+            "name": "Oxidized Lantern Helm",
+            "front": "oxidized-lantern-helm.webp",
+            "back": "_back.webp",
+            "armor": 6,
+            "location": "head",
+            "keywords": [
+                "armor",
+                "set",
+                "metal"
+            ],
+            "rules": [
+                "Outfit"
+            ],
+            "affinities": {
+                "bottom": "blue"
+            },
+            "affinity_bonus": {
+                "desc": "If you are not deaf, you may ignore effects that target non-deaf survivors.",
+                "requires": {
+                    "puzzle": {
+                        "blue": 1
+                    },
+                    "complete": {
+                        "red": 1
+                    }
+                }
+            },
+            "sub_type": "exhausted_lantern_hoard",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Exhausted Lantern Hoard",
+            "selector_text": "Oxidized Lantern Helm",
+            "handle": "oxidized_lantern_helm",
+            "desc": ""
+        },
+        {
+            "id": "oxidized-lantern-sword",
+            "type": "gear",
+            "name": "Oxidized Lantern Sword",
+            "front": "oxidized-lantern-sword.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "sword",
+                "finesse",
+                "metal"
+            ],
+            "affinities": {
+                "right": "red"
+            },
+            "speed": 3,
+            "accurady": 5,
+            "strength": 5,
+            "rules": [
+                "Sharp",
+                "Deflect 1"
+            ],
+            "desc": "<b>Deflect 1</b>: Spend <font class=\"kdm_font\">a</font>. You now have exactly 1 deflect token. The next 1 time you are hit, ignore a hit and and lose 1 deflect token.",
+            "sub_type": "exhausted_lantern_hoard",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Exhausted Lantern Hoard",
+            "selector_text": "Oxidized Lantern Sword",
+            "handle": "oxidized_lantern_sword"
+        },
+        {
+            "id": "oxidized-ring-whip",
+            "type": "gear",
+            "name": "Oxidized Ring Whip",
+            "front": "oxidized-ring-whip.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "whip",
+                "finesse",
+                "metal"
+            ],
+            "rules": [
+                "Sharp",
+                "Reach 2"
+            ],
+            "affinities": {
+                "left": "blue"
+            },
+            "speed": 2,
+            "accuracy": 5,
+            "strength": 3,
+            "affinity_bonus": {
+                "desc": "Gains <b>Provoke</b> (see Rawhide Whip).",
+                "requires": {
+                    "puzzle": {
+                        "blue": 1
+                    },
+                    "complete": {
+                        "red": 3
+                    }
+                }
+            },
+            "sub_type": "exhausted_lantern_hoard",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Exhausted Lantern Hoard",
+            "selector_text": "Oxidized Ring Whip",
+            "handle": "oxidized_ring_whip",
+            "desc": ""
+        },
+        {
+            "id": "survivors-lantern",
+            "type": "gear",
+            "name": "Survivor's Lantern",
+            "front": "survivors-lantern.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "lantern"
+            ],
+            "affinities": {
+                "left": "red",
+                "bottom": "blue",
+                "right": "green"
+            },
+            "sub_type": "exhausted_lantern_hoard",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Exhausted Lantern Hoard",
+            "selector_text": "Survivor's Lantern",
+            "handle": "survivors_lantern",
+            "rules": [],
+            "desc": ""
+        }
+    ]
+}

@@ -1,0 +1,327 @@
+{
+    "id": "bone-smith-gear",
+    "type": "Gear",
+    "name": "Bone Smith Gear",
+    "cards": [
+        {
+            "id": "bone-axe",
+            "type": "gear",
+            "name": "Bone Axe",
+            "front": "bone-axe.webp",
+            "back": "_back.webp",
+            "rules": [
+                "Frail",
+                "Savage"
+            ],
+            "keywords": [
+                "weapon",
+                "melee",
+                "axe",
+                "bone"
+            ],
+            "recipes": [
+                {
+                    "locations": [
+                        "bone_smith"
+                    ],
+                    "resource_types": {
+                        "bone": 1,
+                        "organ": 1
+                    }
+                }
+            ],
+            "speed": 2,
+            "accuracy": 6,
+            "strength": 3,
+            "affinities": {
+                "left": "red"
+            },
+            "desc": "<b>Savage:</b> Once per attack, if you critically wound, cause 1 additional wound. This effect does not apply to impervious hit locations.",
+            "sub_type": "bone_smith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Bone Smith",
+            "selector_text": "Bone Axe",
+            "handle": "bone_axe"
+        },
+        {
+            "id": "bone-blade",
+            "type": "gear",
+            "name": "Bone Blade",
+            "front": "bone-blade.webp",
+            "back": "_back.webp",
+            "rules": [
+                "Frail"
+            ],
+            "keywords": [
+                "weapon",
+                "melee",
+                "sword",
+                "bone"
+            ],
+            "recipes": [
+                {
+                    "locations": [
+                        "bone_smith"
+                    ],
+                    "resource_types": {
+                        "bone": 1
+                    }
+                }
+            ],
+            "speed": 2,
+            "accuracy": 6,
+            "strength": 2,
+            "affinities": {
+                "left": "red"
+            },
+            "desc": "<b>Frail:</b> When you attempt to wound a super-dense hit location, this weapon breaks.<br/>Archive this card at the end of the attack.",
+            "sub_type": "bone_smith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Bone Smith",
+            "selector_text": "Bone Blade",
+            "handle": "bone_blade"
+        },
+        {
+            "id": "bone-club",
+            "type": "gear",
+            "name": "Bone Club",
+            "front": "bone-club.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "two-handed",
+                "heavy",
+                "club",
+                "bone"
+            ],
+            "rules": [
+                "Cumbersome"
+            ],
+            "recipes": [
+                {
+                    "locations": [
+                        "bone_smith"
+                    ],
+                    "resource_types": {
+                        "bone": 3
+                    }
+                }
+            ],
+            "speed": 2,
+            "accuracy": 6,
+            "strength": 5,
+            "affinities": {
+                "left": "red",
+                "right": "red"
+            },
+            "desc": "<b>Cumbersome:</b> Spend <font class=\"kdm_font\">c</font> as an additional cost to activate this weapon. Ignore Cumbersome if this weapon is activated indirectly (Pounce, Charge, etc.).",
+            "sub_type": "bone_smith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Bone Smith",
+            "selector_text": "Bone Club",
+            "handle": "bone_club"
+        },
+        {
+            "id": "bone-dagger",
+            "type": "gear",
+            "name": "Bone Dagger",
+            "front": "bone-dagger.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "dagger",
+                "bone"
+            ],
+            "desc": "On a <b>Perfect hit</b>, gain +1 survival.<br/><b>Perfect Hit:</b> An attack roll result of a lantern 10.",
+            "recipes": [
+                {
+                    "locations": [
+                        "bone_smith"
+                    ],
+                    "resource_types": {
+                        "bone": 1
+                    }
+                }
+            ],
+            "affinities": {
+                "top": "red"
+            },
+            "speed": 3,
+            "accuracy": 7,
+            "strength": 1,
+            "sub_type": "bone_smith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Bone Smith",
+            "selector_text": "Bone Dagger",
+            "handle": "bone_dagger",
+            "rules": []
+        },
+        {
+            "id": "bone-darts",
+            "type": "gear",
+            "name": "Bone Darts",
+            "front": "bone-darts.webp",
+            "back": "_back.webp",
+            "rules": [
+                "Range: 6",
+                "Frail"
+            ],
+            "keywords": [
+                "weapon",
+                "ranged",
+                "thrown",
+                "bone"
+            ],
+            "recipes": [
+                {
+                    "locations": [
+                        "bone_smith"
+                    ],
+                    "resource_types": {
+                        "bone": 1
+                    }
+                }
+            ],
+            "desc": "<b>Frail:</b> When you attempt to wound a super-dense hit location, this weapon breaks. Archive this card at the end of the attack.",
+            "speed": 1,
+            "accuracy": 7,
+            "strength": 3,
+            "affinities": {
+                "left": "red"
+            },
+            "sub_type": "bone_smith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Bone Smith",
+            "selector_text": "Bone Darts",
+            "handle": "bone_darts"
+        },
+        {
+            "id": "bone-pickaxe",
+            "type": "gear",
+            "name": "Bone Pickaxe",
+            "front": "bone-pickaxe.webp",
+            "back": "_back.webp",
+            "affinities": {
+                "top": "green"
+            },
+            "keywords": [
+                "item",
+                "tool",
+                "pickaxe",
+                "bone"
+            ],
+            "desc": "After Hunt phase setup, place the <b>Mineral Gathering</b> event on any hunt space.",
+            "recipes": [
+                {
+                    "locations": [
+                        "bone_smith"
+                    ],
+                    "innovations": [
+                        "ammonia"
+                    ],
+                    "resource_types": {
+                        "bone": 1
+                    },
+                    "resource_handles": {
+                        "leather": 1
+                    }
+                }
+            ],
+            "speed": 1,
+            "accuracy": 8,
+            "strength": 2,
+            "sub_type": "bone_smith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Bone Smith",
+            "selector_text": "Bone Pickaxe",
+            "handle": "bone_pickaxe",
+            "rules": []
+        },
+        {
+            "id": "bone-sickle",
+            "type": "gear",
+            "name": "Bone Sickle",
+            "front": "bone-sickle.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "tool",
+                "sickle",
+                "bone"
+            ],
+            "desc": "After Hunt phase setup, place the <b>Herb Gathering</b> event on any hunt space.",
+            "recipes": [
+                {
+                    "locations": [
+                        "bone_smith"
+                    ],
+                    "innovations": [
+                        "ammonia"
+                    ],
+                    "resource_types": {
+                        "bone": 1
+                    },
+                    "resource_handles": {
+                        "leather": 1
+                    }
+                }
+            ],
+            "affinities": {
+                "top": "green"
+            },
+            "speed": 2,
+            "accuracy": 8,
+            "strength": 1,
+            "sub_type": "bone_smith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Bone Smith",
+            "selector_text": "Bone Sickle",
+            "handle": "bone_sickle",
+            "rules": []
+        },
+        {
+            "id": "skull-helm",
+            "type": "gear",
+            "name": "Skull Helm",
+            "front": "skull-helm.webp",
+            "back": "_back.webp",
+            "location": "head",
+            "armor": 3,
+            "affinities": {
+                "bottom": "red"
+            },
+            "keywords": [
+                "armor",
+                "bone",
+                "fragile"
+            ],
+            "desc": "When you suffer a severe head injury, the Skull Helm is destroyed. Archive this card.",
+            "recipes": [
+                {
+                    "locations": [
+                        "bone_smith"
+                    ],
+                    "resource_types": {
+                        "bone": 2
+                    }
+                },
+                {
+                    "locations": [
+                        "bone_smith"
+                    ],
+                    "resource_handles": {
+                        "skull": 1
+                    }
+                }
+            ],
+            "sub_type": "bone_smith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Bone Smith",
+            "selector_text": "Skull Helm",
+            "handle": "skull_helm",
+            "rules": []
+        }
+    ]
+}

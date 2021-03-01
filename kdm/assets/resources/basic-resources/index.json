@@ -1,0 +1,393 @@
+{
+    "id": "core-basic-resources",
+    "type": "Basic Resources",
+    "name": "Core Basic Resources",
+    "cards": [
+        {
+            "id": "_question_marks",
+            "type": "resources",
+            "name": "???",
+            "front": "_question_marks.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "organ",
+                "hide",
+                "bone",
+                "consumable"
+            ],
+            "desc": "You have no idea what monster bit this is. Can be used as a bone, organ, or hide!",
+            "copies": 2,
+            "rules_text": "You have no idea what monster bit this is. Can be used as a bone, organ, or hide!",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "???",
+            "handle": "_question_marks"
+        },
+        {
+            "id": "_question_marks",
+            "type": "resources",
+            "name": "???",
+            "front": "_question_marks.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "organ",
+                "hide",
+                "bone",
+                "consumable"
+            ],
+            "desc": "You have no idea what monster bit this is. Can be used as a bone, organ, or hide!",
+            "copies": 2,
+            "rules_text": "You have no idea what monster bit this is. Can be used as a bone, organ, or hide!",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "???",
+            "handle": "_question_marks"
+        },
+        {
+            "id": "broken-lantern",
+            "type": "resources",
+            "name": "Broken Lantern",
+            "front": "broken-lantern.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "scrap"
+            ],
+            "desc": "<i class=\"flavor-text\">Remains of an extinguished lantern.</i>",
+            "copies": 2,
+            "flavor_text": "Remains of an extinguished lantern.",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Broken Lantern",
+            "handle": "broken_lantern"
+        },
+        {
+            "id": "broken-lantern",
+            "type": "resources",
+            "name": "Broken Lantern",
+            "front": "broken-lantern.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "scrap"
+            ],
+            "desc": "<i class=\"flavor-text\">Remains of an extinguished lantern.</i>",
+            "copies": 2,
+            "flavor_text": "Remains of an extinguished lantern.",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Broken Lantern",
+            "handle": "broken_lantern"
+        },
+        {
+            "id": "love-juice",
+            "type": "resources",
+            "name": "Love Juice",
+            "front": "love-juice.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "organ",
+                "consumable"
+            ],
+            "desc": "During the settlement phase, you may archive this to <b class=\"story-event\"><font class=\"kdm_font\">g</font> intimacy</b>. Nominated survivors must be able to <b class=\"special-rule\">consume</b>",
+            "copies": 2,
+            "rules_text": "During the settlement phase, you may archive this to <b class=\"story-event\"><font class=\"kdm_font\">g</font> intimacy</b>. Nominated survivors must be able to <b class=\"special-rule\">consume</b>",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Love Juice",
+            "handle": "love_juice"
+        },
+        {
+            "id": "love-juice",
+            "type": "resources",
+            "name": "Love Juice",
+            "front": "love-juice.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "organ",
+                "consumable"
+            ],
+            "desc": "During the settlement phase, you may archive this to <b class=\"story-event\"><font class=\"kdm_font\">g</font> intimacy</b>. Nominated survivors must be able to <b class=\"special-rule\">consume</b>",
+            "copies": 2,
+            "rules_text": "During the settlement phase, you may archive this to <b class=\"story-event\"><font class=\"kdm_font\">g</font> intimacy</b>. Nominated survivors must be able to <b class=\"special-rule\">consume</b>",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Love Juice",
+            "handle": "love_juice"
+        },
+        {
+            "id": "monster-bone",
+            "type": "resources",
+            "name": "Monster Bone",
+            "front": "monster-bone.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "bone"
+            ],
+            "desc": "<i class=\"flavor-text\">A bone suitable for crafting</i>",
+            "copies": 4,
+            "flavor_text": "A bone suitable for crafting",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Monster Bone",
+            "handle": "monster_bone"
+        },
+        {
+            "id": "monster-bone",
+            "type": "resources",
+            "name": "Monster Bone",
+            "front": "monster-bone.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "bone"
+            ],
+            "desc": "<i class=\"flavor-text\">A bone suitable for crafting</i>",
+            "copies": 4,
+            "flavor_text": "A bone suitable for crafting",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Monster Bone",
+            "handle": "monster_bone"
+        },
+        {
+            "id": "monster-bone",
+            "type": "resources",
+            "name": "Monster Bone",
+            "front": "monster-bone.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "bone"
+            ],
+            "desc": "<i class=\"flavor-text\">A bone suitable for crafting</i>",
+            "copies": 4,
+            "flavor_text": "A bone suitable for crafting",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Monster Bone",
+            "handle": "monster_bone"
+        },
+        {
+            "id": "monster-bone",
+            "type": "resources",
+            "name": "Monster Bone",
+            "front": "monster-bone.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "bone"
+            ],
+            "desc": "<i class=\"flavor-text\">A bone suitable for crafting</i>",
+            "copies": 4,
+            "flavor_text": "A bone suitable for crafting",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Monster Bone",
+            "handle": "monster_bone"
+        },
+        {
+            "id": "monster-hide",
+            "type": "resources",
+            "name": "Monster Hide",
+            "front": "monster-hide.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "hide"
+            ],
+            "desc": "<i class=\"flavor-text\">The skin of a beast.</i>",
+            "copies": 7,
+            "flavor_text": "The skin of a beast.",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Monster Hide",
+            "handle": "monster_hide"
+        },
+        {
+            "id": "monster-hide",
+            "type": "resources",
+            "name": "Monster Hide",
+            "front": "monster-hide.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "hide"
+            ],
+            "desc": "<i class=\"flavor-text\">The skin of a beast.</i>",
+            "copies": 7,
+            "flavor_text": "The skin of a beast.",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Monster Hide",
+            "handle": "monster_hide"
+        },
+        {
+            "id": "monster-hide",
+            "type": "resources",
+            "name": "Monster Hide",
+            "front": "monster-hide.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "hide"
+            ],
+            "desc": "<i class=\"flavor-text\">The skin of a beast.</i>",
+            "copies": 7,
+            "flavor_text": "The skin of a beast.",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Monster Hide",
+            "handle": "monster_hide"
+        },
+        {
+            "id": "monster-hide",
+            "type": "resources",
+            "name": "Monster Hide",
+            "front": "monster-hide.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "hide"
+            ],
+            "desc": "<i class=\"flavor-text\">The skin of a beast.</i>",
+            "copies": 7,
+            "flavor_text": "The skin of a beast.",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Monster Hide",
+            "handle": "monster_hide"
+        },
+        {
+            "id": "monster-hide",
+            "type": "resources",
+            "name": "Monster Hide",
+            "front": "monster-hide.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "hide"
+            ],
+            "desc": "<i class=\"flavor-text\">The skin of a beast.</i>",
+            "copies": 7,
+            "flavor_text": "The skin of a beast.",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Monster Hide",
+            "handle": "monster_hide"
+        },
+        {
+            "id": "monster-hide",
+            "type": "resources",
+            "name": "Monster Hide",
+            "front": "monster-hide.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "hide"
+            ],
+            "desc": "<i class=\"flavor-text\">The skin of a beast.</i>",
+            "copies": 7,
+            "flavor_text": "The skin of a beast.",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Monster Hide",
+            "handle": "monster_hide"
+        },
+        {
+            "id": "monster-hide",
+            "type": "resources",
+            "name": "Monster Hide",
+            "front": "monster-hide.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "hide"
+            ],
+            "desc": "<i class=\"flavor-text\">The skin of a beast.</i>",
+            "copies": 7,
+            "flavor_text": "The skin of a beast.",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Monster Hide",
+            "handle": "monster_hide"
+        },
+        {
+            "id": "monster-organ",
+            "type": "resources",
+            "name": "Monster Organ",
+            "front": "monster-organ.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "organ"
+            ],
+            "desc": "If you <b class=\"special-rule\">consume</b> this, archive this card. Roll 1d10. On a result of 6+, you contract a parasite. Archive all <b class=\"keyword\">consumable</b> gear in your gear grid now.",
+            "copies": 3,
+            "rules_text": "If you <b class=\"special-rule\">consume</b> this, archive this card. Roll 1d10. On a result of 6+, you contract a parasite. Archive all <b class=\"keyword\">consumable</b> gear in your gear grid now.",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Monster Organ",
+            "handle": "monster_organ"
+        },
+        {
+            "id": "monster-organ",
+            "type": "resources",
+            "name": "Monster Organ",
+            "front": "monster-organ.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "organ"
+            ],
+            "desc": "If you <b class=\"special-rule\">consume</b> this, archive this card. Roll 1d10. On a result of 6+, you contract a parasite. Archive all <b class=\"keyword\">consumable</b> gear in your gear grid now.",
+            "copies": 3,
+            "rules_text": "If you <b class=\"special-rule\">consume</b> this, archive this card. Roll 1d10. On a result of 6+, you contract a parasite. Archive all <b class=\"keyword\">consumable</b> gear in your gear grid now.",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Monster Organ",
+            "handle": "monster_organ"
+        },
+        {
+            "id": "monster-organ",
+            "type": "resources",
+            "name": "Monster Organ",
+            "front": "monster-organ.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "organ"
+            ],
+            "desc": "If you <b class=\"special-rule\">consume</b> this, archive this card. Roll 1d10. On a result of 6+, you contract a parasite. Archive all <b class=\"keyword\">consumable</b> gear in your gear grid now.",
+            "copies": 3,
+            "rules_text": "If you <b class=\"special-rule\">consume</b> this, archive this card. Roll 1d10. On a result of 6+, you contract a parasite. Archive all <b class=\"keyword\">consumable</b> gear in your gear grid now.",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Monster Organ",
+            "handle": "monster_organ"
+        },
+        {
+            "id": "skull",
+            "type": "resources",
+            "name": "Skull",
+            "front": "skull.png",
+            "back": "_back-basic-resources.png",
+            "keywords": [
+                "bone"
+            ],
+            "desc": "When you gain this, a survivor of your choice gains +1 insanity.",
+            "copies": 1,
+            "rules_text": "When you gain this, a survivor of your choice gains +1 insanity.",
+            "sub_type": "basic_resources",
+            "type_pretty": "Resources",
+            "sub_type_pretty": "Basic Resources",
+            "selector_text": "Skull",
+            "handle": "skull"
+        }
+    ]
+}

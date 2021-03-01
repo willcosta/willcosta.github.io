@@ -1,0 +1,416 @@
+{
+    "id": "blacksmith-gear",
+    "type": "Gear",
+    "name": "Blacksmith Gear",
+    "cards": [
+        {
+            "id": "beacon-shield",
+            "type": "gear",
+            "name": "Beacon Shield",
+            "front": "beacon-shield.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "shield",
+                "metal",
+                "heavy"
+            ],
+            "speed": 1,
+            "accuracy": 6,
+            "strength": 5,
+            "rules": [
+                "Block 2"
+            ],
+            "desc": "Add <font class=\"inline_shield\">2</font> to all hit locations.<br/><b>Block 2:</b> Spend <font class=\"kdm_font\">a</font> to ignore 2 hits the next time you are attacked. Lasts until your next act. You cannot use <b>block</b> more than once per attack.",
+            "sub_type": "blacksmith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Blacksmith",
+            "selector_text": "Beacon Shield",
+            "handle": "beacon_shield"
+        },
+        {
+            "id": "dragon-slayer",
+            "type": "gear",
+            "name": "Dragon Slayer",
+            "front": "dragon-slayer.webp",
+            "back": "_back.webp",
+            "affinities": {
+                "top": "blue",
+                "right": "red"
+            },
+            "speed": 1,
+            "accuracy": 6,
+            "strength": 9,
+            "keywords": [
+                "weapon",
+                "melee",
+                "grand weapon",
+                "two-handed",
+                "heavy",
+                "metal"
+            ],
+            "rules": [
+                "Frail",
+                "Slow",
+                "Sharp",
+                "Devastating 1",
+                "Early Iron"
+            ],
+            "desc": "<b>Early Iron:</b> When an attack roll result is 1, cancel any hits and end the attack.",
+            "sub_type": "blacksmith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Blacksmith",
+            "selector_text": "Dragon Slayer",
+            "handle": "dragon_slayer"
+        },
+        {
+            "id": "lantern-cuirass",
+            "type": "gear",
+            "name": "Lantern Cuirass",
+            "front": "lantern-cuirass.webp",
+            "back": "_back.webp",
+            "armor": 5,
+            "location": "body",
+            "keywords": [
+                "armor",
+                "set",
+                "metal",
+                "heavy"
+            ],
+            "desc": "-2 movement.",
+            "affinities": {
+                "top": "blue",
+                "left": "green",
+                "right": "green",
+                "bottom": "blue"
+            },
+            "affinity_bonus": {
+                "desc": "When you <b>depart</b>, add <font class=\"inline_shield\">3</font> to all hit locations with metal armor.",
+                "requires": {
+                    "puzzle": {
+                        "green": 2,
+                        "blue": 2
+                    }
+                }
+            },
+            "sub_type": "blacksmith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Blacksmith",
+            "selector_text": "Lantern Cuirass",
+            "handle": "lantern_cuirass",
+            "rules": []
+        },
+        {
+            "id": "lantern-dagger",
+            "type": "gear",
+            "name": "Lantern Dagger",
+            "front": "lantern-dagger.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "dagger",
+                "finesse",
+                "metal"
+            ],
+            "speed": 2,
+            "accuracy": 7,
+            "strength": 1,
+            "affinities": {
+                "right": "red"
+            },
+            "rules": [
+                "Paired",
+                "Sharp",
+                "Early Iron"
+            ],
+            "desc": "<b>Sharp:</b> Add 1d10 strength to each wound attempt.<br/><b>Early Iron:</b> When an attack roll result is 1, cancel any hits and end the attack.",
+            "sub_type": "blacksmith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Blacksmith",
+            "selector_text": "Lantern Dagger",
+            "handle": "lantern_dagger"
+        },
+        {
+            "id": "lantern-gauntlets",
+            "type": "gear",
+            "name": "Lantern Gauntlets",
+            "front": "lantern-gauntlets.webp",
+            "back": "_back.webp",
+            "armor": 5,
+            "keywords": [
+                "armor",
+                "set",
+                "metal",
+                "heavy"
+            ],
+            "affinities": {
+                "left": "green"
+            },
+            "affinity_bonus": {
+                "desc": "+2 accuracy with <b>club</b> weapons.",
+                "requires": {
+                    "puzzle": {
+                        "green": 1
+                    }
+                }
+            },
+            "sub_type": "blacksmith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Blacksmith",
+            "selector_text": "Lantern Gauntlets",
+            "handle": "lantern_gauntlets",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "lantern-glaive",
+            "type": "gear",
+            "name": "Lantern Glaive",
+            "front": "lantern-glaive.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "spear",
+                "axe",
+                "two-handed",
+                "finesse",
+                "metal"
+            ],
+            "speed": 2,
+            "accuracy": 6,
+            "strength": 4,
+            "rules": [
+                "Reach 2",
+                "Sharp",
+                "Early Iron"
+            ],
+            "affinities": {
+                "bottom": "green"
+            },
+            "desc": "<b>Sharp:</b> Add 1d10 strength to each wound attempt.<br/><b>Early Iron:</b> When an attack roll result is 1, cancel any hits and end the attack.",
+            "sub_type": "blacksmith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Blacksmith",
+            "selector_text": "Lantern Glaive",
+            "handle": "lantern_glaive"
+        },
+        {
+            "id": "lantern-greaves",
+            "type": "gear",
+            "name": "Lantern Greaves",
+            "front": "lantern-greaves.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "set",
+                "metal",
+                "heavy"
+            ],
+            "affinity_bonus": {
+                "desc": "+2 movement.",
+                "requires": {
+                    "puzzle": {
+                        "red": 2,
+                        "blue": 1
+                    }
+                }
+            },
+            "affinities": {
+                "left": "red",
+                "right": "red",
+                "top": "blue"
+            },
+            "armor": 5,
+            "location": "legs",
+            "sub_type": "blacksmith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Blacksmith",
+            "selector_text": "Lantern Greaves",
+            "handle": "lantern_greaves",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "lantern-helm",
+            "type": "gear",
+            "name": "Lantern Helm",
+            "front": "lantern-helm.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "set",
+                "metal",
+                "heavy"
+            ],
+            "armor": 5,
+            "location": "head",
+            "affinities": {
+                "bottom": "blue"
+            },
+            "affinity_bonus": {
+                "desc": "Ear Plugs. You are <b>deaf</b>, -1 accuracy.",
+                "requires": {
+                    "puzzle": {
+                        "blue": 1
+                    }
+                }
+            },
+            "sub_type": "blacksmith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Blacksmith",
+            "selector_text": "Lantern Helm",
+            "handle": "lantern_helm",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "lantern-mail",
+            "type": "gear",
+            "name": "Lantern Mail",
+            "front": "lantern-mail.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "set",
+                "metal",
+                "heavy"
+            ],
+            "armor": 5,
+            "location": "waist",
+            "affinities": {
+                "right": "green"
+            },
+            "sub_type": "blacksmith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Blacksmith",
+            "selector_text": "Lantern Mail",
+            "handle": "lantern_mail",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "lantern-sword",
+            "type": "gear",
+            "name": "Lantern Sword",
+            "front": "lantern-sword.webp",
+            "back": "_back.webp",
+            "affinities": {
+                "left": "red"
+            },
+            "keywords": [
+                "weapon",
+                "melee",
+                "sword",
+                "finesse",
+                "metal"
+            ],
+            "speed": 3,
+            "accuracy": 5,
+            "strength": 3,
+            "desc": "<b>Sharp:</b> Add 1d10 strength to each wound attempt.<br/><b>Early Iron:</b> When an attack roll result is 1, cancel any hits and end the attack.",
+            "sub_type": "blacksmith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Blacksmith",
+            "selector_text": "Lantern Sword",
+            "handle": "lantern_sword",
+            "rules": []
+        },
+        {
+            "id": "perfect-slayer",
+            "type": "gear",
+            "name": "Perfect Slayer",
+            "front": "perfect-slayer.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "grand weapon",
+                "two-handed",
+                "sword",
+                "heavy",
+                "finesse",
+                "metal"
+            ],
+            "desc": "-2 movement",
+            "rules": [
+                "Slow",
+                "Sharp",
+                "Devastating 2",
+                "Irreplaceable"
+            ],
+            "affinities": {
+                "bottom": "red"
+            },
+            "speed": 3,
+            "accuracy": 6,
+            "strength": 14,
+            "sub_type": "blacksmith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Blacksmith",
+            "selector_text": "Perfect Slayer",
+            "handle": "perfect_slayer"
+        },
+        {
+            "id": "ring-whip",
+            "type": "gear",
+            "name": "Ring Whip",
+            "front": "ring-whip.webp",
+            "back": "_back.webp",
+            "rules": [
+                "Sharp",
+                "Reach 2"
+            ],
+            "affinities": {
+                "left": "blue"
+            },
+            "keywords": [
+                "weapon",
+                "melee",
+                "whip",
+                "finesse",
+                "metal"
+            ],
+            "desc": "<b>Early Iron:</b> When an attack roll result is 1, cancel any hits and end the attack.",
+            "speed": 2,
+            "accuracy": 5,
+            "strength": 0,
+            "sub_type": "blacksmith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Blacksmith",
+            "selector_text": "Ring Whip",
+            "handle": "ring_whip"
+        },
+        {
+            "id": "scrap-shield",
+            "type": "gear",
+            "name": "Scrap Shield",
+            "front": "scrap-shield.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "shield",
+                "bone",
+                "metal"
+            ],
+            "affinities": {
+                "right": "red"
+            },
+            "rules": [
+                "Block 1"
+            ],
+            "desc": "Add <font class=\"inline_shield\">1</font> to all hit locations.<br/><b>Block 1:</b> Spend <font class=\"kdm_font\">a</font> to ignore 1 hit the next time you are attacked. Lasts until your next act. You cannot use <b>block</b> more than once per attack.",
+            "speed": 2,
+            "accuracy": 7,
+            "strength": 3,
+            "sub_type": "blacksmith",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Blacksmith",
+            "selector_text": "Scrap Shield",
+            "handle": "scrap_shield"
+        }
+    ]
+}

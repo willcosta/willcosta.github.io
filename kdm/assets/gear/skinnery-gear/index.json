@@ -1,0 +1,256 @@
+{
+    "id": "skinnery-gear",
+    "type": "Gear",
+    "name": "Skinnery Gear",
+    "cards": [
+        {
+            "id": "bandages",
+            "type": "gear",
+            "name": "Bandages",
+            "front": "bandages.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item"
+            ],
+            "affinities": {
+                "right": "blue",
+                "bottom": "green"
+            },
+            "desc": "<font class=\"kdm_font\">a</font>: Remove up to 2 bleeding tokens from yourself or an adjacent survivor.",
+            "sub_type": "skinnery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Skinnery",
+            "selector_text": "Bandages",
+            "handle": "bandages",
+            "rules": []
+        },
+        {
+            "id": "rawhide-boots",
+            "type": "gear",
+            "name": "Rawhide Boots",
+            "front": "rawhide-boots.webp",
+            "back": "_back.webp",
+            "armor": 1,
+            "location": "legs",
+            "keywords": [
+                "armor",
+                "set",
+                "rawhide"
+            ],
+            "desc": "When you <b>depart</b>, gain +1 survival",
+            "recipes": [
+                {
+                    "locations": [
+                        "skinnery"
+                    ],
+                    "resource_types": {
+                        "hide": 1
+                    }
+                }
+            ],
+            "sub_type": "skinnery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Skinnery",
+            "selector_text": "Rawhide Boots",
+            "handle": "rawhide_boots",
+            "rules": []
+        },
+        {
+            "id": "rawhide-drum",
+            "type": "gear",
+            "name": "Rawhide Drum",
+            "front": "rawhide-drum.webp",
+            "back": "_back.webp",
+            "affinities": {
+                "left": "green"
+            },
+            "keywords": [
+                "item",
+                "rawhide",
+                "instrument",
+                "noisy"
+            ],
+            "desc": "On <b>Arrival</b>, all survivors gain +1 insanity.<br/>Inspirational drumming! When you perform <b>encourage</b>, all non-deaf survivors are affected.",
+            "sub_type": "skinnery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Skinnery",
+            "selector_text": "Rawhide Drum",
+            "handle": "rawhide_drum",
+            "rules": []
+        },
+        {
+            "id": "rawhide-gloves",
+            "type": "gear",
+            "name": "Rawhide Gloves",
+            "front": "rawhide-gloves.webp",
+            "back": "_back.webp",
+            "location": "arms",
+            "armor": 1,
+            "affinities": {
+                "left": "red"
+            },
+            "desc": "When you <b>depart</b>, gain +1 survival",
+            "keywords": [
+                "armor",
+                "set",
+                "rawhide"
+            ],
+            "recipes": [
+                {
+                    "locations": [
+                        "skinnery"
+                    ],
+                    "resource_types": {
+                        "hide": 1
+                    }
+                }
+            ],
+            "sub_type": "skinnery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Skinnery",
+            "selector_text": "Rawhide Gloves",
+            "handle": "rawhide_gloves",
+            "rules": []
+        },
+        {
+            "id": "rawhide-headband",
+            "type": "gear",
+            "name": "Rawhide Headband",
+            "front": "rawhide-headband.webp",
+            "back": "_back.webp",
+            "location": "head",
+            "armor": 1,
+            "affinities": {
+                "bottom": "blue"
+            },
+            "keywords": [
+                "armor",
+                "set",
+                "rawhide"
+            ],
+            "affinity_bonus": {
+                "desc": "<font class=\"kdm_font\">a</font>: reveal the top 2 <font class=\"kdm_font_10\">b</font>. Place them back on top of the deck in any order.",
+                "requires": {
+                    "puzzle": {
+                        "blue": 1
+                    }
+                }
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "skinnery"
+                    ],
+                    "resource_types": {
+                        "hide": 1
+                    }
+                }
+            ],
+            "sub_type": "skinnery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Skinnery",
+            "selector_text": "Rawhide Headband",
+            "handle": "rawhide_headband",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "rawhide-pants",
+            "type": "gear",
+            "name": "Rawhide Pants",
+            "front": "rawhide-pants.webp",
+            "back": "_back.webp",
+            "armor": 1,
+            "location": "legs",
+            "keywords": [
+                "armor",
+                "set",
+                "rawhide"
+            ],
+            "recipes": [
+                {
+                    "locations": [
+                        "skinnery"
+                    ],
+                    "resource_types": {
+                        "hide": 1
+                    }
+                }
+            ],
+            "sub_type": "skinnery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Skinnery",
+            "selector_text": "Rawhide Pants",
+            "handle": "rawhide_pants",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "rawhide-vest",
+            "type": "gear",
+            "name": "Rawhide Vest",
+            "front": "rawhide-vest.webp",
+            "back": "_back.webp",
+            "armor": 1,
+            "location": "body",
+            "affinities": {
+                "top": "blue",
+                "right": "red"
+            },
+            "keywords": [
+                "armor",
+                "set",
+                "rawhide"
+            ],
+            "affinity_bonus": {
+                "desc": "+1 Evasion",
+                "requires": {
+                    "puzzle": {
+                        "red": 1,
+                        "blue": 1
+                    }
+                }
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "skinnery"
+                    ],
+                    "resource_types": {
+                        "hide": 1
+                    }
+                }
+            ],
+            "sub_type": "skinnery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Skinnery",
+            "selector_text": "Rawhide Vest",
+            "handle": "rawhide_vest",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "rawhide-whip",
+            "type": "gear",
+            "name": "Rawhide Whip",
+            "front": "rawhide-whip.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "whip",
+                "rawhide"
+            ],
+            "desc": "<b>Provoke:</b> When you wound with this weapon, gain the <b>priority target</b> token.",
+            "speed": 3,
+            "accuracy": 7,
+            "strength": 1,
+            "sub_type": "skinnery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Skinnery",
+            "selector_text": "Rawhide Whip",
+            "handle": "rawhide_whip",
+            "rules": []
+        }
+    ]
+}

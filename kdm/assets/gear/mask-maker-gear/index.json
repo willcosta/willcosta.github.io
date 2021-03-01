@@ -1,0 +1,233 @@
+{
+    "id": "mask-maker-gear",
+    "type": "Gear",
+    "name": "Mask Maker Gear",
+    "cards": [
+        {
+            "id": "antelope-mask",
+            "type": "gear",
+            "name": "Antelope Mask",
+            "front": "antelope-mask.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "mask",
+                "bone",
+                "other"
+            ],
+            "rules": [
+                "Unique",
+                "Irreplaceable",
+                "Accessory"
+            ],
+            "recipes": [
+                {
+                    "locations": [
+                        "mask_maker"
+                    ],
+                    "resource_handles": {
+                        "pelt": 1
+                    },
+                    "resource_types": {
+                        "bone": 6,
+                        "organ": 4
+                    }
+                }
+            ],
+            "sub_type": "mask_maker",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Mask Maker",
+            "selector_text": "Antelope Mask",
+            "handle": "antelope_mask",
+            "desc": ""
+        },
+        {
+            "id": "death-mask",
+            "type": "gear",
+            "name": "Death Mask",
+            "front": "death-mask.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "mask",
+                "bone",
+                "other"
+            ],
+            "rules": [
+                "Unique",
+                "Irreplaceable",
+                "Accessory"
+            ],
+            "desc": "If you have no affinities, gain +4 luck and suffer -4 to all severe injury rolls.",
+            "recipes": [
+                {
+                    "locations": [
+                        "mask_maker"
+                    ],
+                    "prefix_text": "-1 population",
+                    "resource_types": {
+                        "bone": 6,
+                        "organ": 4
+                    }
+                }
+            ],
+            "sub_type": "mask_maker",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Mask Maker",
+            "selector_text": "Death Mask",
+            "handle": "death_mask"
+        },
+        {
+            "id": "god-mask",
+            "type": "gear",
+            "name": "God Mask",
+            "front": "god-mask.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "mask",
+                "bone",
+                "other"
+            ],
+            "rules": [
+                "Unique",
+                "Irreplaceable",
+                "Accessory"
+            ],
+            "recipes": [
+                {
+                    "locations": [
+                        "mask_maker"
+                    ],
+                    "gear_handles": {
+                        "founding_stone": 1
+                    },
+                    "resource_types": {
+                        "bone": 6,
+                        "organ": 4
+                    }
+                }
+            ],
+            "sub_type": "mask_maker",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Mask Maker",
+            "selector_text": "God Mask",
+            "handle": "god_mask",
+            "desc": ""
+        },
+        {
+            "id": "man-mask",
+            "type": "gear",
+            "name": "Man Mask",
+            "front": "man-mask.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "mask",
+                "bone",
+                "other"
+            ],
+            "rules": [
+                "Unique",
+                "Irreplaceable",
+                "Accessory"
+            ],
+            "recipes": [
+                {
+                    "locations": [
+                        "mask_maker"
+                    ],
+                    "resource_handles": {
+                        "skull": 1
+                    },
+                    "resource_types": {
+                        "bone": 6,
+                        "organ": 4
+                    }
+                }
+            ],
+            "sub_type": "mask_maker",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Mask Maker",
+            "selector_text": "Man Mask",
+            "handle": "man_mask",
+            "desc": ""
+        },
+        {
+            "id": "phoenix-mask",
+            "type": "gear",
+            "name": "Phoenix Mask",
+            "front": "phoenix-mask.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "mask",
+                "bone",
+                "other"
+            ],
+            "rules": [
+                "Unique",
+                "Irreplaceable",
+                "Accessory"
+            ],
+            "recipes": [
+                {
+                    "locations": [
+                        "mask_maker"
+                    ],
+                    "resource_handles": {
+                        "small_feather": 1
+                    },
+                    "resource_types": {
+                        "bone": 6,
+                        "organ": 4
+                    }
+                }
+            ],
+            "sub_type": "mask_maker",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Mask Maker",
+            "selector_text": "Phoenix Mask",
+            "handle": "phoenix_mask",
+            "desc": ""
+        },
+        {
+            "id": "white-lion-mask",
+            "type": "gear",
+            "name": "White Lion Mask",
+            "front": "white-lion-mask.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "mask",
+                "bone",
+                "other"
+            ],
+            "rules": [
+                "Unique",
+                "Irreplaceable",
+                "Accessory"
+            ],
+            "recipes": [
+                {
+                    "locations": [
+                        "mask_maker"
+                    ],
+                    "resource_handles": {
+                        "shimmering_mane": 1
+                    },
+                    "resource_types": {
+                        "bone": 6,
+                        "organ": 4
+                    }
+                }
+            ],
+            "sub_type": "mask_maker",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Mask Maker",
+            "selector_text": "White Lion Mask",
+            "handle": "white_lion_mask",
+            "desc": ""
+        }
+    ]
+}

@@ -1,0 +1,455 @@
+{
+    "id": "plumery-gear",
+    "type": "Gear",
+    "name": "Plumery Gear",
+    "cards": [
+        {
+            "id": "arc-bow",
+            "type": "gear",
+            "name": "Arc Bow",
+            "front": "arc-bow.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "ranged",
+                "bow",
+                "two-handed"
+            ],
+            "speed": 1,
+            "accuracy": 6,
+            "strength": 9,
+            "rules": [
+                "Slow",
+                "Range 6"
+            ],
+            "desc": "<b>Cumbersome:</b> Spend <font class=\"kdm_font\">c</font> as an additional cost of activating this weapon.",
+            "affinities": {
+                "left": "red",
+                "right": "green"
+            },
+            "affinity_bonus": {
+                "desc": "Range +2",
+                "requires": {
+                    "puzzle": {
+                        "red": 1,
+                        "green": 1
+                    },
+                    "complete": {
+                        "blue": 1
+                    }
+                }
+            },
+            "sub_type": "plumery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Plumery",
+            "selector_text": "Arc Bow",
+            "handle": "arc_bow"
+        },
+        {
+            "id": "bird-bread",
+            "type": "gear",
+            "name": "Bird Bread",
+            "front": "bird-bread.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "consumable",
+                "soluble"
+            ],
+            "affinities": {
+                "right": "green"
+            },
+            "desc": "<font class=\"kdm_font\">a</font> <b>Consume:</b> Once per showdown, add <font class=\"inline_shield\">1</font> to all hit locations. Gain <b>priority target</b> token. Roll 1d10. On a 1, reduce your survival to 0.",
+            "sub_type": "plumery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Plumery",
+            "selector_text": "Bird Bread",
+            "handle": "bird_bread",
+            "rules": []
+        },
+        {
+            "id": "bloom-sphere",
+            "type": "gear",
+            "name": "Bloom Sphere",
+            "front": "bloom-sphere.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "stinky",
+                "other"
+            ],
+            "affinities": {
+                "left": "green",
+                "right": "blue"
+            },
+            "affinity_bonus": {
+                "desc": "When you are picked as a target, roll 1d10. On a 6+, the monster must pick a new target, if possible.",
+                "requires": {
+                    "puzzle": {
+                        "green": 1,
+                        "blue": 1
+                    }
+                }
+            },
+            "sub_type": "plumery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Plumery",
+            "selector_text": "Bloom Sphere",
+            "handle": "bloom_sphere",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "crest-crown",
+            "type": "gear",
+            "name": "Crest Crown",
+            "front": "crest-crown.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "other"
+            ],
+            "affinities": {
+                "top": "blue",
+                "left": "red",
+                "right": "green",
+                "bottom": "blue"
+            },
+            "desc": "<font class=\"kdm_font\">a</font>: If <b>insane</b>, reshuffle hit location deck.",
+            "affinity_bonus": {
+                "desc": "When you depart, gain +1 insanity and +1 survival for every <font class=\"kdm_font_2 affinity_blue_text\">h</font> you have.",
+                "requires": {
+                    "puzzle": {
+                        "red": 1,
+                        "blue": 2
+                    }
+                }
+            },
+            "sub_type": "plumery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Plumery",
+            "selector_text": "Crest Crown",
+            "handle": "crest_crown",
+            "rules": []
+        },
+        {
+            "id": "feather-mantle",
+            "type": "gear",
+            "name": "Feather Mantle",
+            "front": "feather-mantle.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "flammable"
+            ],
+            "affinities": {
+                "left": "blue",
+                "right": "green",
+                "bottom": "red"
+            },
+            "desc": "When you suffer <b>knockback</b>, you may ignore <b>collision</b> with other survivors and reduce movement by up to 3 spaces.",
+            "sub_type": "plumery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Plumery",
+            "selector_text": "Feather Mantle",
+            "handle": "feather_mantle",
+            "rules": []
+        },
+        {
+            "id": "feather-shield",
+            "type": "gear",
+            "name": "Feather Shield",
+            "front": "feather-shield.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "shield",
+                "flammable"
+            ],
+            "speed": 3,
+            "accuracy": 7,
+            "strength": 0,
+            "rules": [
+                "Block 1"
+            ],
+            "affinities": {
+                "top": "blue"
+            },
+            "affinity_bonus": {
+                "desc": "Reduce any suffered brain damage by 1 to a minimum of 1.",
+                "requires": {
+                    "complete": {
+                        "red": 1,
+                        "blue": 1,
+                        "green": 1
+                    }
+                }
+            },
+            "sub_type": "plumery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Plumery",
+            "selector_text": "Feather Shield",
+            "handle": "feather_shield",
+            "desc": ""
+        },
+        {
+            "id": "hollow-sword",
+            "type": "gear",
+            "name": "Hollow Sword",
+            "front": "hollow-sword.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "sword",
+                "bone"
+            ],
+            "speed": 3,
+            "accuracy": 5,
+            "strength": 3,
+            "rules": [
+                "Frail",
+                "Paired"
+            ],
+            "desc": "On a <b>perfect hit</b>, make 1 additional attack roll.",
+            "sub_type": "plumery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Plumery",
+            "selector_text": "Hollow Sword",
+            "handle": "hollow_sword"
+        },
+        {
+            "id": "hollowpoint-arrow",
+            "type": "gear",
+            "name": "Hollowpoint Arrow",
+            "front": "hollowpoint-arrow.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "ammunition",
+                "arrow"
+            ],
+            "speed": 1,
+            "accuracy": 6,
+            "strength": 11,
+            "rules": [
+                "Slow",
+                "Ammo - Bow"
+            ],
+            "desc": "On a hit, monster gains -1 movement token. Use once per showdown.",
+            "sub_type": "plumery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Plumery",
+            "selector_text": "Hollowpoint Arrow",
+            "handle": "hollowpoint_arrow"
+        },
+        {
+            "id": "hours-ring",
+            "type": "gear",
+            "name": "Hours Ring",
+            "front": "hours-ring.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "other"
+            ],
+            "rules": [
+                "Unique",
+                "Selfish"
+            ],
+            "desc": "Do not gain any tokens for any reason. Do not gain Hunt XP or weapon proficiency. <b>Retired</b> wearers can <b>depart</b>.",
+            "sub_type": "plumery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Plumery",
+            "selector_text": "Hours Ring",
+            "handle": "hours_ring"
+        },
+        {
+            "id": "phoenix-faulds",
+            "type": "gear",
+            "name": "Phoenix Faulds",
+            "front": "phoenix-faulds.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "set",
+                "feather",
+                "metal",
+                "flammable"
+            ],
+            "armor": 4,
+            "location": "waist",
+            "desc": "When you <b>depart</b>, gain +1 insanity.",
+            "sub_type": "plumery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Plumery",
+            "selector_text": "Phoenix Faulds",
+            "handle": "phoenix_faulds",
+            "rules": []
+        },
+        {
+            "id": "phoenix-gauntlet",
+            "type": "gear",
+            "name": "Phoenix Gauntlet",
+            "front": "phoenix-gauntlet.webp",
+            "back": "_back.webp",
+            "armor": 4,
+            "location": "arms",
+            "keywords": [
+                "armor",
+                "set",
+                "feather",
+                "metal",
+                "flammable"
+            ],
+            "desc": "When you <b>depart</b>, gain +1 insanity.",
+            "sub_type": "plumery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Plumery",
+            "selector_text": "Phoenix Gauntlet",
+            "handle": "phoenix_gauntlet",
+            "rules": []
+        },
+        {
+            "id": "phoenix-greaves",
+            "type": "gear",
+            "name": "Phoenix Greaves",
+            "front": "phoenix-greaves.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "set",
+                "feather",
+                "metal",
+                "flammable"
+            ],
+            "affinities": {
+                "right": "red"
+            },
+            "armor": 4,
+            "location": "legs",
+            "desc": "If <b>insane</b>, gain +2 movement.",
+            "sub_type": "plumery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Plumery",
+            "selector_text": "Phoenix Greaves",
+            "handle": "phoenix_greaves",
+            "rules": []
+        },
+        {
+            "id": "phoenix-helm",
+            "type": "gear",
+            "name": "Phoenix Helm",
+            "front": "phoenix-helm.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "set",
+                "feather",
+                "metal",
+                "flammable"
+            ],
+            "armor": 4,
+            "location": "head",
+            "affinities": {
+                "bottom": "blue"
+            },
+            "affinity_bonus": {
+                "desc": "If <b>insane</b> at the start of the showdown, gain +1 evasion token.",
+                "requires": {
+                    "puzzle": {
+                        "blue": 1
+                    },
+                    "complete": {
+                        "green": 1,
+                        "red": 1
+                    }
+                }
+            },
+            "sub_type": "plumery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Plumery",
+            "selector_text": "Phoenix Helm",
+            "handle": "phoenix_helm",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "phoenix-plackart",
+            "type": "gear",
+            "name": "Phoenix Plackart",
+            "front": "phoenix-plackart.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "set",
+                "feather",
+                "metal",
+                "flammable"
+            ],
+            "location": "body",
+            "armor": 4,
+            "affinities": {
+                "top": "blue",
+                "left": "green",
+                "right": "red"
+            },
+            "affinity_bonus": {
+                "desc": "If <b>insane</b>, ignore the first hit each round and suffer 1 brain damage instead.",
+                "requires": {
+                    "puzzle": {
+                        "red": 1,
+                        "blue": 1,
+                        "green": 1
+                    }
+                }
+            },
+            "sub_type": "plumery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Plumery",
+            "selector_text": "Phoenix Plackart",
+            "handle": "phoenix_plackart",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "sonic-tomahawk",
+            "type": "gear",
+            "name": "Sonic Tomahawk",
+            "front": "sonic-tomahawk.webp",
+            "back": "_back.webp",
+            "speed": 3,
+            "accuracy": 5,
+            "strength": 2,
+            "affinities": {
+                "left": "red"
+            },
+            "keywords": [
+                "weapon",
+                "melee",
+                "axe",
+                "metal"
+            ],
+            "desc": "On a <b>perfect hit</b>, make 1 additional attack roll.",
+            "affinity_bonus": {
+                "desc": "Gain <b>Savage</b> and <b>Paired</b>",
+                "requires": {
+                    "puzzle": {
+                        "red": 1
+                    },
+                    "complete": {
+                        "green": 2,
+                        "blue": 1
+                    }
+                }
+            },
+            "sub_type": "plumery",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Plumery",
+            "selector_text": "Sonic Tomahawk",
+            "handle": "sonic_tomahawk",
+            "rules": []
+        }
+    ]
+}

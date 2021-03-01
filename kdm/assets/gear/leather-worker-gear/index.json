@@ -1,0 +1,278 @@
+{
+    "id": "leather-worker-gear",
+    "type": "Gear",
+    "name": "Leather Worker Gear",
+    "cards": [
+        {
+            "id": "hunter-whip",
+            "type": "gear",
+            "name": "Hunter Whip",
+            "front": "hunter-whip.webp",
+            "back": "_back.webp",
+            "affinities": {
+                "top": "blue",
+                "right": "blue"
+            },
+            "keywords": [
+                "weapon",
+                "melee",
+                "whip",
+                "leather"
+            ],
+            "speed": 3,
+            "accuracy": 6,
+            "strength": 3,
+            "affinity_bonus": {
+                "desc": "On a <b>Perfect hit</b>, discard 1 mood in play.",
+                "requires": {
+                    "puzzle": {
+                        "blue": 2
+                    }
+                }
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "leather_worker"
+                    ],
+                    "resource_types": {
+                        "leather": 2,
+                        "bone": 1
+                    }
+                }
+            ],
+            "sub_type": "leather_worker",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Leather Worker",
+            "selector_text": "Hunter Whip",
+            "handle": "hunter_whip",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "leather-boots",
+            "type": "gear",
+            "name": "Leather Boots",
+            "front": "leather-boots.webp",
+            "back": "_back.webp",
+            "armor": 3,
+            "location": "legs",
+            "affinities": {
+                "left": "green",
+                "right": "green"
+            },
+            "affinity_bonus": {
+                "desc": "At the end of your act, you may move 1 space.",
+                "requires": {
+                    "puzzle": {
+                        "green": 2
+                    }
+                }
+            },
+            "keywords": [
+                "armor",
+                "set",
+                "leather"
+            ],
+            "recipes": [
+                {
+                    "locations": [
+                        "leather_worker"
+                    ],
+                    "resource_types": {
+                        "leather": 1,
+                        "hide": 1
+                    }
+                }
+            ],
+            "sub_type": "leather_worker",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Leather Worker",
+            "selector_text": "Leather Boots",
+            "handle": "leather_boots",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "leather-bracers",
+            "type": "gear",
+            "name": "Leather Bracers",
+            "front": "leather-bracers.webp",
+            "back": "_back.webp",
+            "armor": 3,
+            "location": "arms",
+            "keywords": [
+                "armor",
+                "set",
+                "leather"
+            ],
+            "desc": "When you <b>depart</b>, gain +2 survival.",
+            "affinities": {
+                "right": "green"
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "leather_worker"
+                    ],
+                    "resource_types": {
+                        "leather": 1,
+                        "hide": 1
+                    }
+                }
+            ],
+            "sub_type": "leather_worker",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Leather Worker",
+            "selector_text": "Leather Bracers",
+            "handle": "leather_bracers",
+            "rules": []
+        },
+        {
+            "id": "leather-cuirass",
+            "type": "gear",
+            "name": "Leather Cuirass",
+            "front": "leather-cuirass.webp",
+            "back": "_back.webp",
+            "armor": 3,
+            "location": "body",
+            "keywords": [
+                "armor",
+                "set",
+                "leather"
+            ],
+            "affinities": {
+                "top": "red",
+                "bottom": "blue"
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "leather_worker"
+                    ],
+                    "resource_types": {
+                        "leather": 1,
+                        "bone": 1
+                    }
+                }
+            ],
+            "sub_type": "leather_worker",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Leather Worker",
+            "selector_text": "Leather Cuirass",
+            "handle": "leather_cuirass",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "leather-mask",
+            "type": "gear",
+            "name": "Leather Mask",
+            "front": "leather-mask.webp",
+            "back": "_back.webp",
+            "armor": 3,
+            "location": "head",
+            "keywords": [
+                "armor",
+                "set",
+                "leather"
+            ],
+            "affinities": {
+                "top": "blue",
+                "bottom": "red"
+            },
+            "desc": "When you <b>depart</b>, gain +2 insanity.",
+            "recipes": [
+                {
+                    "locations": [
+                        "leather_worker"
+                    ],
+                    "resource_types": {
+                        "leather": 1,
+                        "scrap": 1
+                    }
+                }
+            ],
+            "sub_type": "leather_worker",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Leather Worker",
+            "selector_text": "Leather Mask",
+            "handle": "leather_mask",
+            "rules": []
+        },
+        {
+            "id": "leather-shield",
+            "type": "gear",
+            "name": "Round Leather Shield",
+            "front": "leather-shield.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "shield",
+                "leather"
+            ],
+            "rules": [
+                "Block 1"
+            ],
+            "speed": 1,
+            "accuracy": 8,
+            "strength": 1,
+            "desc": "Add <font class=\"inline_shield\">1</font> to all hit locations.<br/><b>Block 1:</b> Spend <font class=\"kdm_font\">a</font> to ignore 1 hit the next time you are attacked. Lasts until your next act. You cannot use <b>block</b> more than once per attack.",
+            "affinities": {
+                "top": "green"
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "leather_worker"
+                    ],
+                    "resource_types": {
+                        "leather": 1,
+                        "bone": 1,
+                        "hide": 1
+                    }
+                }
+            ],
+            "sub_type": "leather_worker",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Leather Worker",
+            "selector_text": "Round Leather Shield",
+            "handle": "leather_shield"
+        },
+        {
+            "id": "leather-skirt",
+            "type": "gear",
+            "name": "Leather Skirt",
+            "front": "leather-skirt.webp",
+            "back": "_back.webp",
+            "armor": 3,
+            "location": "waist",
+            "affinities": {
+                "bottom": "green"
+            },
+            "keywords": [
+                "armor",
+                "set",
+                "leather"
+            ],
+            "recipes": [
+                {
+                    "locations": [
+                        "leather_worker"
+                    ],
+                    "resource_types": {
+                        "leather": 1
+                    }
+                }
+            ],
+            "sub_type": "leather_worker",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Leather Worker",
+            "selector_text": "Leather Skirt",
+            "handle": "leather_skirt",
+            "rules": [],
+            "desc": ""
+        }
+    ]
+}

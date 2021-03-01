@@ -1,0 +1,404 @@
+{
+    "id": "catarium-gear",
+    "type": "Gear",
+    "name": "Catarium Gear",
+    "cards": [
+        {
+            "id": "cat-eye-circlet",
+            "type": "gear",
+            "name": "Cat Eye Circlet",
+            "front": "cat-eye-circlet.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "jewelry",
+                "other"
+            ],
+            "desc": "<font class=\"kdm_font\">a</font>: Reveal the next 3 monster hit locations and put them back in any order.",
+            "affinities": {
+                "left": "blue"
+            },
+            "sub_type": "catarium",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Catarium",
+            "selector_text": "Cat Eye Circlet",
+            "handle": "cat_eye_circlet",
+            "rules": []
+        },
+        {
+            "id": "cat-fang-knife",
+            "type": "gear",
+            "name": "Cat Fang Knife",
+            "front": "cat-fang-knife.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "dagger",
+                "bone"
+            ],
+            "speed": 3,
+            "accuracy": 6,
+            "strength": 2,
+            "affinities": {
+                "top": "red",
+                "left": "red",
+                "right": "red",
+                "bottom": "red"
+            },
+            "affinity_bonus": {
+                "desc": "On a <b>perfect hit</b>, gain +1 strength token. When knocked down, remove all your +1 strength tokens.",
+                "requires": {
+                    "complete": {
+                        "red": 3
+                    }
+                }
+            },
+            "sub_type": "catarium",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Catarium",
+            "selector_text": "Cat Fang Knife",
+            "handle": "cat_fang_knife",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "cat-gut-bow",
+            "type": "gear",
+            "name": "Cat Gut Bow",
+            "front": "cat-gut-bow.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "ranged",
+                "bow",
+                "two-handed"
+            ],
+            "rules": [
+                "Cumbersome",
+                "Range: 6"
+            ],
+            "desc": "<b>Aim:</b> When you attack, before rolling to hit, you may reduce the speed of this weapon by 1 to gain +2 accuracy for that attack.",
+            "speed": 2,
+            "accuracy": 7,
+            "strength": 3,
+            "affinities": {
+                "top": "blue"
+            },
+            "sub_type": "catarium",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Catarium",
+            "selector_text": "Cat Gut Bow",
+            "handle": "cat_gut_bow"
+        },
+        {
+            "id": "claw-head-arrow",
+            "type": "gear",
+            "name": "Claw Head Arrow",
+            "front": "claw-head-arrow.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "ammuntion",
+                "arrow"
+            ],
+            "rules": [
+                "Slow",
+                "Ammo - Bow"
+            ],
+            "desc": "<b>Slow, Ammo-Bow:</b> You must have a bow in your gear grid to activate this.<br/>If you hit, monster gains -1 evasion token. Use once per showdown.",
+            "speed": 1,
+            "accuracy": 6,
+            "strength": 6,
+            "affinities": {
+                "right": "blue"
+            },
+            "sub_type": "catarium",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Catarium",
+            "selector_text": "Claw Head Arrow",
+            "handle": "claw_head_arrow"
+        },
+        {
+            "id": "frenzy-drink",
+            "type": "gear",
+            "name": "Frenzy Drink",
+            "front": "frenzy-drink.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "consumable",
+                "fragile"
+            ],
+            "desc": "<font class=\"kdm_font\">a</font> <b>Consume:</b> Suffer <b>Frenzy</b> brain trauma. Can be used once per showdown.",
+            "sub_type": "catarium",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Catarium",
+            "selector_text": "Frenzy Drink",
+            "handle": "frenzy_drink",
+            "rules": []
+        },
+        {
+            "id": "king-spear",
+            "type": "gear",
+            "name": "King Spear",
+            "front": "king-spear.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "spear",
+                "heavy",
+                "two-handed"
+            ],
+            "rules": [
+                "Reach 2"
+            ],
+            "affinities": {
+                "right": "red"
+            },
+            "speed": 2,
+            "accuracy": 6,
+            "strength": 3,
+            "desc": "<b>Reach 2:</b> May attack from 2 spaces away.",
+            "sub_type": "catarium",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Catarium",
+            "selector_text": "King Spear",
+            "handle": "king_spear"
+        },
+        {
+            "id": "lion-beast-katar",
+            "type": "gear",
+            "name": "Lion Beast Katar",
+            "front": "lion-beast-katar.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "katar"
+            ],
+            "rules": [
+                "Deadly",
+                "Paired"
+            ],
+            "speed": 2,
+            "accuracy": 7,
+            "strength": 3,
+            "desc": "<b>Deadly:</b> +1 luck with this weapon.<br/><b>Paired:</b> When you attack, add the speed of a 2<sup>nd</sup> Lion Beast Katar in your gear grid.",
+            "sub_type": "catarium",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Catarium",
+            "selector_text": "Lion Beast Katar",
+            "handle": "lion_beast_katar"
+        },
+        {
+            "id": "lion-headdress",
+            "type": "gear",
+            "name": "Lion Headdress",
+            "front": "lion-headdress.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "flammable"
+            ],
+            "rules": [
+                "Accessory"
+            ],
+            "armor": 1,
+            "location": "head",
+            "desc": "<b>Accessory:</b> You may wear this in addition to 1 armor at this hit location",
+            "sub_type": "catarium",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Catarium",
+            "selector_text": "Lion Headdress",
+            "handle": "lion_headdress"
+        },
+        {
+            "id": "lion-skin-cloak",
+            "type": "gear",
+            "name": "Lion Skin Cloak",
+            "front": "lion-skin-cloak.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "fur",
+                "bone",
+                "heavy",
+                "flammable"
+            ],
+            "desc": "Reduce damage from every hit suffered by 1, to a minimum of 1.",
+            "armor": 0,
+            "location": "body",
+            "affinities": {
+                "green": "right"
+            },
+            "sub_type": "catarium",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Catarium",
+            "selector_text": "Lion Skin Cloak",
+            "handle": "lion_skin_cloak",
+            "rules": []
+        },
+        {
+            "id": "whisker-harp",
+            "type": "gear",
+            "name": "Whisker Harp",
+            "front": "whisker-harp.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "instrument",
+                "noisy"
+            ],
+            "desc": "On <b>Arrival</b>, all survivors gain +1 survival.<br/><font class=\"kdm_font\">a</font>: Strum, roll 1d10. On a result of 6+ discard 1 <b>mood</b> currently in play.",
+            "affinities": {
+                "left": "blue"
+            },
+            "sub_type": "catarium",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Catarium",
+            "selector_text": "Whisker Harp",
+            "handle": "whisker_harp",
+            "rules": []
+        },
+        {
+            "id": "white-lion-boots",
+            "type": "gear",
+            "name": "White Lion Boots",
+            "front": "white-lion-boots.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "set",
+                "fur",
+                "heavy"
+            ],
+            "armor": 2,
+            "location": "legs",
+            "affinities": {
+                "right": "red",
+                "bottom": "red"
+            },
+            "affinity_bonus": {
+                "desc": "+1 movement",
+                "requires": {
+                    "puzzle": {
+                        "red": 2
+                    }
+                }
+            },
+            "sub_type": "catarium",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Catarium",
+            "selector_text": "White Lion Boots",
+            "handle": "white_lion_boots",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "white-lion-coat",
+            "type": "gear",
+            "name": "White Lion Coat",
+            "front": "white-lion-coat.webp",
+            "back": "_back.webp",
+            "desc": "<b>Pounce:</b> Spend <font class=\"kdm_font\">c</font> and <font class=\"kdm_font\">a</font> to move 3 spaces in a straight line. Then, if you moved 3 spaces, activate a melee weapon with +1 strength.",
+            "armor": 2,
+            "location": "body",
+            "affinities": {
+                "top": "blue"
+            },
+            "sub_type": "catarium",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Catarium",
+            "selector_text": "White Lion Coat",
+            "handle": "white_lion_coat",
+            "keywords": [],
+            "rules": []
+        },
+        {
+            "id": "white-lion-gauntlet",
+            "type": "gear",
+            "name": "White Lion Gauntlet",
+            "front": "white-lion-gauntlet.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "set",
+                "fur",
+                "heavy"
+            ],
+            "desc": "When you <b>Pounce</b>, gain +1 accuracy for your next attack this turn.",
+            "armor": 2,
+            "location": "arms",
+            "sub_type": "catarium",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Catarium",
+            "selector_text": "White Lion Gauntlet",
+            "handle": "white_lion_gauntlet",
+            "rules": []
+        },
+        {
+            "id": "white-lion-helm",
+            "type": "gear",
+            "name": "White Lion Helm",
+            "front": "white-lion-helm.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "set",
+                "fur",
+                "heavy"
+            ],
+            "armor": 2,
+            "location": "head",
+            "affinities": {
+                "bottom": "red"
+            },
+            "affinity_bonus": {
+                "desc": "<font class=\"kdm_font\">a</font> and 1 survival: Roar. <b>Non-Deaf Insane</b> survivors gain +2 strength until end of round. All other survivors gain +1 insanity.",
+                "requires": {
+                    "puzzle": {
+                        "red": 1
+                    },
+                    "complete": {
+                        "blue": 1
+                    }
+                }
+            },
+            "sub_type": "catarium",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Catarium",
+            "selector_text": "White Lion Helm",
+            "handle": "white_lion_helm",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "white-lion-skirt",
+            "type": "gear",
+            "name": "White Lion Skirt",
+            "front": "white-lion-skirt.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "set",
+                "fur",
+                "heavy"
+            ],
+            "armor": 2,
+            "location": "waist",
+            "affinities": {
+                "right": "red",
+                "left": "red"
+            },
+            "sub_type": "catarium",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Catarium",
+            "selector_text": "White Lion Skirt",
+            "handle": "white_lion_skirt",
+            "rules": [],
+            "desc": ""
+        }
+    ]
+}

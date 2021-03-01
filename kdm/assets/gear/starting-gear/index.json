@@ -1,0 +1,171 @@
+{
+    "id": "starting-gear",
+    "type": "Gear",
+    "name": "Starting Gear",
+    "cards": [
+        {
+            "id": "cloth",
+            "type": "gear",
+            "name": "Cloth",
+            "front": "cloth.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor"
+            ],
+            "desc": "The Cloth protects your waist. Gain 1 armor point at the waist hit location.",
+            "armor": 1,
+            "location": "waist",
+            "sub_type": "starting_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Starting Gear",
+            "selector_text": "Cloth",
+            "handle": "cloth",
+            "rules": []
+        },
+        {
+            "id": "cloth",
+            "type": "gear",
+            "name": "Cloth",
+            "front": "cloth.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor"
+            ],
+            "desc": "The Cloth protects your waist. Gain 1 armor point at the waist hit location.",
+            "armor": 1,
+            "location": "waist",
+            "sub_type": "starting_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Starting Gear",
+            "selector_text": "Cloth",
+            "handle": "cloth",
+            "rules": []
+        },
+        {
+            "id": "cloth",
+            "type": "gear",
+            "name": "Cloth",
+            "front": "cloth.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor"
+            ],
+            "desc": "The Cloth protects your waist. Gain 1 armor point at the waist hit location.",
+            "armor": 1,
+            "location": "waist",
+            "sub_type": "starting_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Starting Gear",
+            "selector_text": "Cloth",
+            "handle": "cloth",
+            "rules": []
+        },
+        {
+            "id": "cloth",
+            "type": "gear",
+            "name": "Cloth",
+            "front": "cloth.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor"
+            ],
+            "desc": "The Cloth protects your waist. Gain 1 armor point at the waist hit location.",
+            "armor": 1,
+            "location": "waist",
+            "sub_type": "starting_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Starting Gear",
+            "selector_text": "Cloth",
+            "handle": "cloth",
+            "rules": []
+        },
+        {
+            "id": "founding-stone",
+            "type": "gear",
+            "name": "Founding Stone",
+            "front": "founding-stone.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "stone"
+            ],
+            "desc": "Spend <font class=\"kdm_font\">a</font> to sling the stone from anywhere on the board! Archive this card for 1 automatic hit that inflicts a critical wound.<br/><b>Archive:</b> Return this card to the game box.",
+            "speed": 2,
+            "accuracy": 7,
+            "strength": 1,
+            "sub_type": "starting_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Starting Gear",
+            "selector_text": "Founding Stone",
+            "handle": "founding_stone",
+            "rules": []
+        },
+        {
+            "id": "founding-stone",
+            "type": "gear",
+            "name": "Founding Stone",
+            "front": "founding-stone.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "stone"
+            ],
+            "desc": "Spend <font class=\"kdm_font\">a</font> to sling the stone from anywhere on the board! Archive this card for 1 automatic hit that inflicts a critical wound.<br/><b>Archive:</b> Return this card to the game box.",
+            "speed": 2,
+            "accuracy": 7,
+            "strength": 1,
+            "sub_type": "starting_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Starting Gear",
+            "selector_text": "Founding Stone",
+            "handle": "founding_stone",
+            "rules": []
+        },
+        {
+            "id": "founding-stone",
+            "type": "gear",
+            "name": "Founding Stone",
+            "front": "founding-stone.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "stone"
+            ],
+            "desc": "Spend <font class=\"kdm_font\">a</font> to sling the stone from anywhere on the board! Archive this card for 1 automatic hit that inflicts a critical wound.<br/><b>Archive:</b> Return this card to the game box.",
+            "speed": 2,
+            "accuracy": 7,
+            "strength": 1,
+            "sub_type": "starting_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Starting Gear",
+            "selector_text": "Founding Stone",
+            "handle": "founding_stone",
+            "rules": []
+        },
+        {
+            "id": "founding-stone",
+            "type": "gear",
+            "name": "Founding Stone",
+            "front": "founding-stone.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "stone"
+            ],
+            "desc": "Spend <font class=\"kdm_font\">a</font> to sling the stone from anywhere on the board! Archive this card for 1 automatic hit that inflicts a critical wound.<br/><b>Archive:</b> Return this card to the game box.",
+            "speed": 2,
+            "accuracy": 7,
+            "strength": 1,
+            "sub_type": "starting_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Starting Gear",
+            "selector_text": "Founding Stone",
+            "handle": "founding_stone",
+            "rules": []
+        }
+    ]
+}

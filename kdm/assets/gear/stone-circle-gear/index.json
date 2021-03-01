@@ -1,0 +1,494 @@
+{
+    "id": "stone-circle-gear",
+    "type": "Gear",
+    "name": "Stone Circle Gear",
+    "cards": [
+        {
+            "id": "beast-knuckle",
+            "type": "gear",
+            "name": "Beast Knuckle",
+            "front": "beast-knuckle.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "katar",
+                "bone"
+            ],
+            "speed": 2,
+            "accuracy": 6,
+            "strength": 4,
+            "rules": [
+                "Paired"
+            ],
+            "desc": "When you wound with this weapon, monster gains -1 toughness until end of the attack.",
+            "recipes": [
+                {
+                    "locations": [
+                        "stone_circle"
+                    ],
+                    "resource_handles": {
+                        "large_flat_tooth": 1
+                    },
+                    "resource_types": {
+                        "pelt": 1
+                    }
+                }
+            ],
+            "sub_type": "stone_circle",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Stone Circle",
+            "selector_text": "Beast Knuckle",
+            "handle": "beast_knuckle"
+        },
+        {
+            "id": "blood-paint",
+            "type": "gear",
+            "name": "Blood Paint",
+            "front": "blood-paint.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "soluble"
+            ],
+            "desc": "<font class=\"kdm_font\">a</font>: Activate weapon gear to the left and right of this card. These are two separate attacks. Cannot be used with two-handed weapons.",
+            "affinities": {
+                "left": "paired",
+                "right": "paired"
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "stone_circle"
+                    ],
+                    "resource_handles": {
+                        "bladder": 1
+                    },
+                    "resource_types": {
+                        "organ": 1
+                    },
+                    "innovations": [
+                        "paint"
+                    ]
+                }
+            ],
+            "sub_type": "stone_circle",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Stone Circle",
+            "selector_text": "Blood Paint",
+            "handle": "blood_paint",
+            "rules": []
+        },
+        {
+            "id": "blue-charm",
+            "type": "gear",
+            "name": "Blue Charm",
+            "front": "blue-charm.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "jewelry",
+                "fragile"
+            ],
+            "add_affinity": [
+                "blue"
+            ],
+            "affinity_bonus": {
+                "desc": "<b>Unshakeable:</b> When you draw a <b>Trap</b>, roll 1d10. On a 6+, discard the <b>Trap</b> and reshuffle the deck.",
+                "requires": {
+                    "complete": {
+                        "blue": 5
+                    }
+                }
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "stone_circle"
+                    ],
+                    "resource_types": {
+                        "organ": 3
+                    }
+                }
+            ],
+            "sub_type": "stone_circle",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Stone Circle",
+            "selector_text": "Blue Charm",
+            "handle": "blue_charm",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "bone-earrings",
+            "type": "gear",
+            "name": "Bone Earrings",
+            "front": "bone-earrings.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "jewelry",
+                "bone"
+            ],
+            "desc": "At the start of the showdown, gain +2 speed and +2 strength tokens if <b>insane</b> and all gear in your gear grid has the <i>bone</i> keyword.",
+            "recipes": [
+                {
+                    "locations": [
+                        "stone_circle"
+                    ],
+                    "resource_handles": {
+                        "shank_bone": 1
+                    },
+                    "resource_types": {
+                        "bone": 1
+                    }
+                }
+            ],
+            "sub_type": "stone_circle",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Stone Circle",
+            "selector_text": "Bone Earrings",
+            "handle": "bone_earrings",
+            "rules": []
+        },
+        {
+            "id": "boss-mehndi",
+            "type": "gear",
+            "name": "Boss Mehndi",
+            "front": "boss-mehndi.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "soluble"
+            ],
+            "desc": "Boss is brave. While adjacent to you, <b>insane</b> survivors gain +1 speed.",
+            "recipes": [
+                {
+                    "locations": [
+                        "stone_circle"
+                    ],
+                    "resource_handles": {
+                        "golden_whiskers": 1
+                    },
+                    "resource_types": {
+                        "bone": 1
+                    }
+                }
+            ],
+            "sub_type": "stone_circle",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Stone Circle",
+            "selector_text": "Boss Mehndi",
+            "handle": "boss_mehndi",
+            "rules": []
+        },
+        {
+            "id": "green-charm",
+            "type": "gear",
+            "name": "Green Charm",
+            "front": "green-charm.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "jewelry",
+                "fragile"
+            ],
+            "add_affinity": [
+                "green"
+            ],
+            "affinity_bonus": {
+                "desc": "<b>Undeathable:</b> If you would die, roll 1d10. On a 6+, you inexplicably survive.",
+                "requires": {
+                    "complete": {
+                        "green": 5
+                    }
+                }
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "stone_circle"
+                    ],
+                    "resource_types": {
+                        "organ": 3
+                    }
+                }
+            ],
+            "sub_type": "stone_circle",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Stone Circle",
+            "selector_text": "Green Charm",
+            "handle": "green_charm",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "lance-of-longinus",
+            "type": "gear",
+            "name": "Lance of Longinus",
+            "front": "lance-of-longinus.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "melee",
+                "weapon",
+                "spear",
+                "two-handed",
+                "bone"
+            ],
+            "rules": [
+                "Irreplaceable",
+                "Reach 2"
+            ],
+            "desc": "Each showdown, the first time you wound, the monster gains a -1 toughness token.",
+            "speed": 2,
+            "accuracy": 6,
+            "strength": 9,
+            "recipes": [
+                {
+                    "locations": [
+                        "stone_circle"
+                    ],
+                    "resource_handles": {
+                        "legendary_horns": 1
+                    },
+                    "resource_types": {
+                        "organ": 6
+                    }
+                }
+            ],
+            "sub_type": "stone_circle",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Stone Circle",
+            "selector_text": "Lance of Longinus",
+            "handle": "lance_of_longinus"
+        },
+        {
+            "id": "red-charm",
+            "type": "gear",
+            "name": "Red Charm",
+            "front": "red-charm.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "jewelry",
+                "fragile"
+            ],
+            "add_affinity": [
+                "red"
+            ],
+            "affinity_bonus": {
+                "desc": "<b>Unstoppable:</b> When you attempt to wound, instead roll 1d10. On a 1-5 fail. On 6-10, wound.",
+                "requires": {
+                    "complete": {
+                        "red": 5
+                    }
+                }
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "stone_circle"
+                    ],
+                    "resource_types": {
+                        "organ": 3
+                    }
+                }
+            ],
+            "sub_type": "stone_circle",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Stone Circle",
+            "selector_text": "Red Charm",
+            "handle": "red_charm",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "screaming-bracers",
+            "type": "gear",
+            "name": "Screaming Bracers",
+            "front": "screaming-bracers.webp",
+            "back": "_back.webp",
+            "armor": 2,
+            "keywords": [
+                "armor",
+                "set",
+                "fur"
+            ],
+            "affinities": {
+                "left": "red",
+                "top": "green"
+            },
+            "location": "arms",
+            "desc": "On <b>Arrival</b>, if possible, add an <b>Acanthus Plant</b> terrain card to the showdown. When you activate terrain, you may add +2 to your roll result.",
+            "recipes": [
+                {
+                    "locations": [
+                        "stone_circle"
+                    ],
+                    "resource_handles": {
+                        "pelt": 1
+                    },
+                    "resource_types": {
+                        "hide": 1
+                    }
+                }
+            ],
+            "sub_type": "stone_circle",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Stone Circle",
+            "selector_text": "Screaming Bracers",
+            "handle": "screaming_bracers",
+            "rules": []
+        },
+        {
+            "id": "screaming-coat",
+            "type": "gear",
+            "name": "Screaming Coat",
+            "front": "screaming-coat.webp",
+            "back": "_back.webp",
+            "affinities": {
+                "top": "blue",
+                "left": "green",
+                "right": "blue",
+                "bottom": "green"
+            },
+            "armor": 2,
+            "location": "body",
+            "keywords": [
+                "armor",
+                "set",
+                "fur"
+            ],
+            "desc": "<b>Slam:</b> Spend <font class=\"kdm_font\">c</font>  to full move forward in a straight line. If you move 4+ spaces and stop adjacent to a monster, it suffers <b>knockback 1</b> and -1 toughness until the end of the round.",
+            "recipes": [
+                {
+                    "locations": [
+                        "stone_circle"
+                    ],
+                    "resource_handles": {
+                        "pelt": 1
+                    },
+                    "resource_types": {
+                        "bone": 1
+                    }
+                }
+            ],
+            "sub_type": "stone_circle",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Stone Circle",
+            "selector_text": "Screaming Coat",
+            "handle": "screaming_coat",
+            "rules": []
+        },
+        {
+            "id": "screaming-horns",
+            "type": "gear",
+            "name": "Screaming Horns",
+            "front": "screaming-horns.webp",
+            "back": "_back.webp",
+            "armor": 3,
+            "location": "head",
+            "keywords": [
+                "armor",
+                "set",
+                "bone"
+            ],
+            "affinities": {
+                "bottom": "blue"
+            },
+            "desc": "<font class=\"kdm_font\">a</font>: Scream. Non-deaf <b>insane</b> survivors gain +1 movement until end of round. All other survivors gain +1 insanity.",
+            "recipes": [
+                {
+                    "locations": [
+                        "stone_circle"
+                    ],
+                    "resource_handles": {
+                        "spiral_horn": 1
+                    },
+                    "resource_types": {
+                        "scrap": 1
+                    }
+                }
+            ],
+            "sub_type": "stone_circle",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Stone Circle",
+            "selector_text": "Screaming Horns",
+            "handle": "screaming_horns",
+            "rules": []
+        },
+        {
+            "id": "screaming-leg-warmers",
+            "type": "gear",
+            "name": "Screaming Leg Warmers",
+            "front": "screaming-leg-warmers.webp",
+            "back": "_back.webp",
+            "armor": 2,
+            "location": "legs",
+            "keywords": [
+                "armor",
+                "set",
+                "fur"
+            ],
+            "desc": "On <b>Arrival</b> your feet hurt. Gain +3 insanity. ",
+            "affinities": {
+                "top": "blue",
+                "right": "red"
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "stone_circle"
+                    ],
+                    "resource_handles": {
+                        "pelt": 1
+                    },
+                    "resource_types": {
+                        "hide": 1
+                    }
+                }
+            ],
+            "sub_type": "stone_circle",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Stone Circle",
+            "selector_text": "Screaming Leg Warmers",
+            "handle": "screaming_leg_warmers",
+            "rules": []
+        },
+        {
+            "id": "screaming-skirt",
+            "type": "gear",
+            "name": "Screaming Skirt",
+            "front": "screaming-skirt.webp",
+            "back": "_back.webp",
+            "armor": 3,
+            "location": "waist",
+            "keywords": [
+                "armor",
+                "set",
+                "fur"
+            ],
+            "affinities": {
+                "right": "green",
+                "bottom": "blue"
+            },
+            "desc": "Thick, protective fur protects your parts. Add +1 to severe waist injury roll results.",
+            "recipes": [
+                {
+                    "locations": [
+                        "stone_circle"
+                    ],
+                    "resource_handles": {
+                        "pelt": 1
+                    }
+                }
+            ],
+            "sub_type": "stone_circle",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Stone Circle",
+            "selector_text": "Screaming Skirt",
+            "handle": "screaming_skirt",
+            "rules": []
+        }
+    ]
+}

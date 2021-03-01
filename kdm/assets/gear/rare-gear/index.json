@@ -1,0 +1,452 @@
+{
+    "id": "core-rare-gear",
+    "type": "Gear",
+    "name": "Core Rare Gear",
+    "cards": [
+        {
+            "id": "adventure-sword",
+            "type": "gear",
+            "name": "Adventure Sword",
+            "front": "adventure-sword.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "sword",
+                "finesse",
+                "other"
+            ],
+            "rules": [
+                "Unique",
+                "Irreplaceable"
+            ],
+            "desc": "Your courage is added to this weapon's strength.",
+            "speed": 3,
+            "accuracy": 6,
+            "strength": 0,
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Adventure Sword",
+            "handle": "adventure_sword"
+        },
+        {
+            "id": "butcher-cleaver-left",
+            "type": "gear",
+            "name": "Butcher Cleaver",
+            "front": "butcher-cleaver-left.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "axe",
+                "other"
+            ],
+            "rules": [
+                "Paired",
+                "Sentient",
+                "Irreplaceable"
+            ],
+            "speed": 2,
+            "accuracy": 5,
+            "strength": 5,
+            "desc": "<b>Sentient:</b> Must be insane to activate.<br/><b>Irreplaceable:</b> When you die, archive this card.",
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Butcher Cleaver",
+            "handle": "butcher_cleaver"
+        },
+        {
+            "id": "butcher-cleaver-right",
+            "type": "gear",
+            "name": "Butcher Cleaver",
+            "front": "butcher-cleaver-right.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "axe",
+                "other"
+            ],
+            "rules": [
+                "Paired",
+                "Sentient",
+                "Irreplaceable"
+            ],
+            "speed": 2,
+            "accuracy": 5,
+            "strength": 5,
+            "desc": "<b>Sentient:</b> Must be insane to activate.<br/><b>Irreplaceable:</b> When you die, archive this card.",
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Butcher Cleaver",
+            "handle": "butcher_cleaver"
+        },
+        {
+            "id": "excalibur",
+            "type": "gear",
+            "name": "Excalibur",
+            "front": "excalibur.webp",
+            "back": "_back.webp",
+            "speed": 2,
+            "accuracy": 4,
+            "strength": 4,
+            "expansion": "sword_hunter",
+            "keywords": [
+                "weapon",
+                "melee",
+                "sword",
+                "heavy",
+                "metal",
+                "other"
+            ],
+            "rules": [
+                "Savage",
+                "Unique"
+            ],
+            "desc": "When you die, you cease to exist (ignore death principle) and this gains +2 permanent strength (note this on the settlement record sheet).",
+            "affinities": {
+                "left": "blue"
+            },
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Excalibur (Sword Hunter)",
+            "handle": "excalibur"
+        },
+        {
+            "id": "forsaker-mask",
+            "type": "gear",
+            "name": "Forsaker Mask",
+            "front": "forsaker-mask.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "mask",
+                "metal",
+                "other"
+            ],
+            "rules": [
+                "Unique",
+                "Irreplaceable",
+                "Accessory"
+            ],
+            "desc": "During the Aftermath, you run off into the darkness never to be seen again.<hr/>During the Settlement Phase, you may archive this item to build the <b>Mask Maker</b> location.",
+            "armor": 2,
+            "location": "head",
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Forsaker Mask",
+            "handle": "forsaker_mask"
+        },
+        {
+            "id": "lantern-halberd",
+            "type": "gear",
+            "name": "Lantern Halberd",
+            "front": "lantern-halberd.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "two-handed",
+                "spear",
+                "other"
+            ],
+            "rules": [
+                "Reach 2",
+                "Irreplaceable",
+                "Unique"
+            ],
+            "desc": "After attacking, if standing, you may move up to 2 spaces directly away from the monster.",
+            "speed": 2,
+            "accuracy": 4,
+            "strength": 7,
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Lantern Halberd",
+            "handle": "lantern_halberd"
+        },
+        {
+            "id": "lovelorn-rock",
+            "type": "gear",
+            "name": "Lovelorn Rock",
+            "front": "lovelorn-rock.webp",
+            "back": "_back.webp",
+            "expansion": "vignettes_of_death_white_gigalion",
+            "desc": "You will never be apart.",
+            "keywords": [
+                "item",
+                "heavy",
+                "bone",
+                "stone"
+            ],
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Lovelorn Rock (Vignettes Of Death White Gigalion)",
+            "handle": "lovelorn_rock",
+            "rules": []
+        },
+        {
+            "id": "muramasa",
+            "type": "gear",
+            "name": "Muramasa",
+            "front": "muramasa.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "katana",
+                "two-handed",
+                "other"
+            ],
+            "rules": [
+                "Frail",
+                "Sharp",
+                "Sentient",
+                "Deadly 2",
+                "Unique"
+            ],
+            "desc": "When you critically wound with this weapon, gain 2 bleeding tokens.",
+            "speed": 6,
+            "accuracy": 6,
+            "strength": 6,
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Muramasa",
+            "handle": "muramasa"
+        },
+        {
+            "id": "regal-faulds",
+            "type": "gear",
+            "name": "Regal Faulds",
+            "front": "regal-faulds.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "bone",
+                "metal"
+            ],
+            "rules": [
+                "Cursed"
+            ],
+            "desc": "At the Aftermath, <font class='kdm_font'>g</font> <b>King's Curse</b>.",
+            "armor": 4,
+            "location": "waist",
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Regal Faulds",
+            "handle": "regal_faulds"
+        },
+        {
+            "id": "regal-gauntlet",
+            "type": "gear",
+            "name": "Regal Gauntlet",
+            "front": "regal-gauntlet.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "bone",
+                "metal"
+            ],
+            "rules": [
+                "Cursed"
+            ],
+            "desc": "At the Aftermath, <font class='kdm_font'>g</font> <b>King's Curse</b>.",
+            "armor": 4,
+            "location": "arms",
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Regal Gauntlet",
+            "handle": "regal_gauntlet"
+        },
+        {
+            "id": "regal-greaves",
+            "type": "gear",
+            "name": "Regal Greaves",
+            "front": "regal-greaves.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "bone",
+                "metal"
+            ],
+            "rules": [
+                "Cursed"
+            ],
+            "desc": "At the Aftermath, <font class='kdm_font'>g</font> <b>King's Curse</b>.",
+            "armor": 4,
+            "location": "legs",
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Regal Greaves",
+            "handle": "regal_greaves"
+        },
+        {
+            "id": "regal-helm",
+            "type": "gear",
+            "name": "Regal Helm",
+            "front": "regal-helm.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "bone",
+                "metal"
+            ],
+            "rules": [
+                "Cursed"
+            ],
+            "desc": "At the Aftermath, <font class='kdm_font'>g</font> <b>King's Curse</b>.",
+            "armor": 4,
+            "location": "head",
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Regal Helm",
+            "handle": "regal_helm"
+        },
+        {
+            "id": "regal-plackart",
+            "type": "gear",
+            "name": "Regal Plackart",
+            "front": "regal-plackart.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "armor",
+                "bone",
+                "metal"
+            ],
+            "rules": [
+                "Cursed"
+            ],
+            "desc": "At the Aftermath, <font class='kdm_font'>g</font> <b>King's Curse</b>.",
+            "armor": 4,
+            "location": "body",
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Regal Plackart",
+            "handle": "regal_plackart"
+        },
+        {
+            "id": "steel-shield",
+            "type": "gear",
+            "name": "Steel Shield",
+            "front": "steel-shield.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "shield",
+                "metal",
+                "heavy"
+            ],
+            "rules": [
+                "Irreplaceable"
+            ],
+            "desc": "-3 movement.<br/>Spend <font class=\"kdm_font\">a</font> or survival to ignore a hit.",
+            "speed": 1,
+            "accuracy": 6,
+            "strength": 6,
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Steel Shield",
+            "handle": "steel_shield"
+        },
+        {
+            "id": "steel-sword",
+            "type": "gear",
+            "name": "Steel Sword",
+            "front": "steel-sword.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "sword",
+                "finesse",
+                "metal"
+            ],
+            "rules": [
+                "Irreplaceable",
+                "Slow",
+                "Sharp"
+            ],
+            "desc": "On a <b>Perfect hit</b>, the edge sharpens. Gain +1d10 strength for the rest of the attack.",
+            "speed": 1,
+            "accuracy": 4,
+            "strength": 5,
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Steel Sword",
+            "handle": "steel_sword"
+        },
+        {
+            "id": "thundermaul",
+            "type": "gear",
+            "name": "Thunder Maul",
+            "front": "thundermaul.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "club",
+                "two-handed",
+                "other"
+            ],
+            "rules": [
+                "Irreplaceable",
+                "Unique",
+                "Cursed"
+            ],
+            "desc": "On a <b>Perfect hit</b>, the monster is knocked down. Suffer a severe arm injury. All non-deaf survivors suffer 1 brain damage.",
+            "speed": 2,
+            "accuracy": 6,
+            "strength": 10,
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Thunder Maul",
+            "handle": "thunder_maul"
+        },
+        {
+            "id": "twilight-sword",
+            "type": "gear",
+            "name": "Twilight Sword",
+            "front": "twilight-sword.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "weapon",
+                "melee",
+                "two-handed",
+                "finesse",
+                "other"
+            ],
+            "rules": [
+                "Slow",
+                "Cursed",
+                "Cumbersome",
+                "Sentient",
+                "Irreplaceable"
+            ],
+            "desc": "Gains <b>Devastating 2</b> when fighting the Watcher.<br/>* Accuracy is 9 - Twilight Sword proficiency level.",
+            "speed": 1,
+            "accuracy": "*",
+            "strength": 9,
+            "sub_type": "rare_gear",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Rare Gear",
+            "selector_text": "Twilight Sword",
+            "handle": "twilight_sword"
+        }
+    ]
+}

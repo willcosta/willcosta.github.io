@@ -1,0 +1,209 @@
+{
+    "id": "organ-grinder-gear",
+    "type": "Gear",
+    "name": "Organ Grinder Gear",
+    "cards": [
+        {
+            "id": "dried-acanthus",
+            "type": "gear",
+            "name": "Dried Acanthus",
+            "front": "dried-acanthus.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "herb",
+                "consumable"
+            ],
+            "desc": "When you <b>depart</b>, gain +2 survival. When you suffer a severe injury, ignore it and archive this card instead.",
+            "recipes": [
+                {
+                    "locations": [
+                        "organ_grinder"
+                    ],
+                    "resource_handles": {
+                        "fresh_acanthus": 1
+                    }
+                }
+            ],
+            "sub_type": "organ_grinder",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Organ Grinder",
+            "selector_text": "Dried Acanthus",
+            "handle": "dried_acanthus",
+            "rules": []
+        },
+        {
+            "id": "fecal-salve",
+            "type": "gear",
+            "name": "Fecal Salve",
+            "front": "fecal-salve.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "balm",
+                "stinky"
+            ],
+            "desc": "When you <b>depart</b>, gain +1 survival<br/><font class=\"kdm_font\">a</font>: You are not a <b>threat</b> until you attack. If you have the <b>priority target</b> token, remove it.",
+            "affinities": {
+                "left": "blue"
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "organ_grinder"
+                    ],
+                    "resource_types": {
+                        "organ": 1
+                    }
+                }
+            ],
+            "sub_type": "organ_grinder",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Organ Grinder",
+            "selector_text": "Fecal Salve",
+            "handle": "fecal_salve",
+            "rules": []
+        },
+        {
+            "id": "lucky-charm",
+            "type": "gear",
+            "name": "Lucky Charm",
+            "front": "lucky-charm.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "jewelry"
+            ],
+            "affinities": {
+                "left": "blue",
+                "right": "blue"
+            },
+            "affinity_bonus": {
+                "desc": "+1 luck",
+                "requires": {
+                    "complete": {
+                        "blue": 2
+                    }
+                }
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "organ_grinder"
+                    ],
+                    "resource_types": {
+                        "organ": 1
+                    }
+                }
+            ],
+            "sub_type": "organ_grinder",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Organ Grinder",
+            "selector_text": "Lucky Charm",
+            "handle": "lucky_charm",
+            "rules": [],
+            "desc": ""
+        },
+        {
+            "id": "monster-grease",
+            "type": "gear",
+            "name": "Monster Grease",
+            "front": "monster-grease.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "consumable",
+                "soluble",
+                "stinky"
+            ],
+            "desc": "Gain +1 evasion.",
+            "affinities": {
+                "left": "green"
+            },
+            "affinity_bonus": {
+                "desc": "+1 evasion",
+                "requires": {
+                    "complete": {
+                        "green": 3
+                    }
+                }
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "organ_grinder"
+                    ],
+                    "resource_types": {
+                        "organ": 1
+                    }
+                }
+            ],
+            "sub_type": "organ_grinder",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Organ Grinder",
+            "selector_text": "Monster Grease",
+            "handle": "monster_grease",
+            "rules": []
+        },
+        {
+            "id": "monster-tooth-necklace",
+            "type": "gear",
+            "name": "Monster Tooth Necklace",
+            "front": "monster-tooth-necklace.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "jewelry",
+                "bone"
+            ],
+            "desc": "Gain +1 strength.",
+            "affinities": {
+                "right": "red"
+            },
+            "affinity_bonus": {
+                "desc": "+1 strength",
+                "requires": {
+                    "complete": {
+                        "red": 2
+                    }
+                }
+            },
+            "recipes": [
+                {
+                    "locations": [
+                        "organ_grinder"
+                    ],
+                    "resource_types": {
+                        "scrap": 1,
+                        "bone": 1
+                    },
+                    "prefix_text": "<b>Heat</b> Required."
+                }
+            ],
+            "sub_type": "organ_grinder",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Organ Grinder",
+            "selector_text": "Monster Tooth Necklace",
+            "handle": "monster_tooth_necklace",
+            "rules": []
+        },
+        {
+            "id": "stone-nose",
+            "type": "gear",
+            "name": "Stone Noses",
+            "front": "stone-nose.webp",
+            "back": "_back.webp",
+            "keywords": [
+                "item",
+                "jewelry"
+            ],
+            "desc": "On <b>Arrival</b>, gain +1 survival, +1 insanity.<br/><b>Arrival:</b> At the start of the showdown.",
+            "sub_type": "organ_grinder",
+            "type_pretty": "Gear",
+            "sub_type_pretty": "Organ Grinder",
+            "selector_text": "Stone Noses",
+            "handle": "stone_nose",
+            "rules": []
+        }
+    ]
+}
