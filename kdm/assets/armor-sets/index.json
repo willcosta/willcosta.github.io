@@ -1,0 +1,49 @@
+{
+    "id": "core-armor-sets",
+    "type": "Armor Sets",
+    "name": "Core Armor Sets",
+    "cards": [
+        {
+            "id": "lantern-armor",
+            "type": "Armor Sets",
+            "name": "Lantern Armor",
+            "front": "",
+            "back": ""
+        },
+        {
+            "id": "leather-armor",
+            "type": "Armor Sets",
+            "name": "Leather Armor",
+            "front": "",
+            "back": ""
+        },
+        {
+            "id": "phoenix-armor",
+            "type": "Armor Sets",
+            "name": "Phoenix Armor",
+            "front": "",
+            "back": ""
+        },
+        {
+            "id": "rawhide-armor",
+            "type": "Armor Sets",
+            "name": "Rawhide Armor",
+            "front": "",
+            "back": ""
+        },
+        {
+            "id": "screaming-armor",
+            "type": "Armor Sets",
+            "name": "Screaming Armor",
+            "front": "",
+            "back": ""
+        },
+        {
+            "id": "white-lion-armor",
+            "type": "Armor Sets",
+            "name": "White Lion Armor",
+            "front": "",
+            "back": ""
+        }
+    ]
+}
