@@ -1,0 +1,29 @@
+{
+    "id": "screaming-antelope-legendary-ai",
+    "type": "AI",
+    "name": "Screaming Antelope Legendary AI",
+    "cards": [
+        {
+            "id": "in-heat",
+            "type": "AI",
+            "name": "In Heat",
+            "front": "in-heat.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "legendary-horns",
+            "type": "AI",
+            "name": "Legendary Horns",
+            "front": "legendary-horns.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "skewer",
+            "type": "AI",
+            "name": "Skewer",
+            "front": "skewer.webp",
+            "back": "_back.webp"
+        }
+    ],
+    "base_folder": "monsters/screaming-antelope/legendary-ai/"
+}

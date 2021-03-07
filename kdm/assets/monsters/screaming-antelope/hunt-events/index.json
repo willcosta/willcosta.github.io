@@ -1,0 +1,71 @@
+{
+    "id": "screaming-antelope-hunt-events",
+    "type": "Monster Hunt Events",
+    "name": "Screaming Antelope Hunt Events",
+    "cards": [
+        {
+            "id": "carpet-of-ticks",
+            "type": "Monster Hunt Events",
+            "name": "Carpet of Ticks",
+            "front": "carpet-of-ticks.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "dead-antelope",
+            "type": "Monster Hunt Events",
+            "name": "Dead Antelope",
+            "front": "dead-antelope.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "devoured-grounds",
+            "type": "Monster Hunt Events",
+            "name": "Devoured Grounds",
+            "front": "devoured-grounds.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "grazing-field",
+            "type": "Monster Hunt Events",
+            "name": "Grazing Field",
+            "front": "grazing-field.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "migration",
+            "type": "Monster Hunt Events",
+            "name": "Migration",
+            "front": "migration.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "skittish",
+            "type": "Monster Hunt Events",
+            "name": "Skittish",
+            "front": "skittish.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "stampede",
+            "type": "Monster Hunt Events",
+            "name": "Stampede",
+            "front": "stampede.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "teething",
+            "type": "Monster Hunt Events",
+            "name": "Teething",
+            "front": "teething.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "vomit-pile",
+            "type": "Monster Hunt Events",
+            "name": "Vomit Pile",
+            "front": "vomit-pile.webp",
+            "back": "_back.webp"
+        }
+    ],
+    "base_folder": "monsters/screaming-antelope/hunt-events/"
+}

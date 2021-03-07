@@ -1,0 +1,162 @@
+{
+    "id": "screaming-antelope-hit-locations",
+    "type": "Hit Locations",
+    "name": "Screaming Antelope Hit Locations",
+    "cards": [
+        {
+            "id": "delicated-inverted-knee",
+            "type": "Hit Locations",
+            "name": "Delicated Inverted Knee",
+            "front": "delicated-inverted-knee.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "ferocious-spasm",
+            "type": "Hit Locations",
+            "name": "Ferocious Spasm",
+            "front": "ferocious-spasm.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "furry-tail",
+            "type": "Hit Locations",
+            "name": "Furry Tail",
+            "front": "furry-tail.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "furry-throat",
+            "type": "Hit Locations",
+            "name": "Furry Throat",
+            "front": "furry-throat.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "giant-mouth",
+            "type": "Hit Locations",
+            "name": "Giant Mouth",
+            "front": "giant-mouth.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "giant-teeth",
+            "type": "Hit Locations",
+            "name": "Giant Teeth",
+            "front": "giant-teeth.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "giant-tongue",
+            "type": "Hit Locations",
+            "name": "Giant Tongue",
+            "front": "giant-tongue.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "gnarled-horns",
+            "type": "Hit Locations",
+            "name": "Gnarled Horns",
+            "front": "gnarled-horns.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "palate",
+            "type": "Hit Locations",
+            "name": "Palate",
+            "front": "palate.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "restless-back",
+            "type": "Hit Locations",
+            "name": "Restless Back",
+            "front": "restless-back.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "restless-chest",
+            "type": "Hit Locations",
+            "name": "Restless Chest",
+            "front": "restless-chest.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "restless-ear",
+            "type": "Hit Locations",
+            "name": "Restless Ear",
+            "front": "restless-ear.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "restless-eye",
+            "type": "Hit Locations",
+            "name": "Restless Eye",
+            "front": "restless-eye.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "restless-flank",
+            "type": "Hit Locations",
+            "name": "Restless Flank",
+            "front": "restless-flank.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "restless-hoof",
+            "type": "Hit Locations",
+            "name": "Restless Hoof",
+            "front": "restless-hoof.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "restless-inner-thigh",
+            "type": "Hit Locations",
+            "name": "Restless Inner Thigh",
+            "front": "restless-inner-thigh.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "restless-muzzle",
+            "type": "Hit Locations",
+            "name": "Restless Muzzle",
+            "front": "restless-muzzle.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "restless-rump",
+            "type": "Hit Locations",
+            "name": "Restless Rump",
+            "front": "restless-rump.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "restless-shank",
+            "type": "Hit Locations",
+            "name": "Restless Shank",
+            "front": "restless-shank.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "restless-shoulder",
+            "type": "Hit Locations",
+            "name": "Restless Shoulder",
+            "front": "restless-shoulder.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "restless-tiny-hands",
+            "type": "Hit Locations",
+            "name": "Restless Tiny Hands",
+            "front": "restless-tiny-hands.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "wailing-slide",
+            "type": "Hit Locations",
+            "name": "Wailing Slide",
+            "front": "wailing-slide.webp",
+            "back": "_back.webp"
+        }
+    ],
+    "base_folder": "monsters/screaming-antelope/hit-locations/"
+}

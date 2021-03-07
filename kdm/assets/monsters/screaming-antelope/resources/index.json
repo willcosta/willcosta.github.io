@@ -1,0 +1,120 @@
+{
+    "id": "screaming-antelope-resources",
+    "type": "Monster Resources",
+    "name": "Screaming Antelope Resources",
+    "cards": [
+        {
+            "id": "beast-steak",
+            "type": "Monster Resources",
+            "name": "Beast Steak",
+            "front": "beast-steak.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "beast-steak",
+            "type": "Monster Resources",
+            "name": "Beast Steak",
+            "front": "beast-steak.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "bladder",
+            "type": "Monster Resources",
+            "name": "Bladder",
+            "front": "bladder.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "large-flat-tooth",
+            "type": "Monster Resources",
+            "name": "Large Flat Tooth",
+            "front": "large-flat-tooth.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "large-flat-tooth",
+            "type": "Monster Resources",
+            "name": "Large Flat Tooth",
+            "front": "large-flat-tooth.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "muscly-gums",
+            "type": "Monster Resources",
+            "name": "Muscly Gums",
+            "front": "muscly-gums.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "pelt",
+            "type": "Monster Resources",
+            "name": "Pelt",
+            "front": "pelt.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "pelt",
+            "type": "Monster Resources",
+            "name": "Pelt",
+            "front": "pelt.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "pelt",
+            "type": "Monster Resources",
+            "name": "Pelt",
+            "front": "pelt.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "pelt",
+            "type": "Monster Resources",
+            "name": "Pelt",
+            "front": "pelt.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "screaming-brain",
+            "type": "Monster Resources",
+            "name": "Screaming Brain",
+            "front": "screaming-brain.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "shank-bone",
+            "type": "Monster Resources",
+            "name": "Shank Bone",
+            "front": "shank-bone.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "shank-bone",
+            "type": "Monster Resources",
+            "name": "Shank Bone",
+            "front": "shank-bone.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "shank-bone",
+            "type": "Monster Resources",
+            "name": "Shank Bone",
+            "front": "shank-bone.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "shank-bone",
+            "type": "Monster Resources",
+            "name": "Shank Bone",
+            "front": "shank-bone.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "spiral-horn",
+            "type": "Monster Resources",
+            "name": "Spiral Horn",
+            "front": "spiral-horn.webp",
+            "back": "_back.webp"
+        }
+    ],
+    "base_folder": "monsters/screaming-antelope/resources/"
+}

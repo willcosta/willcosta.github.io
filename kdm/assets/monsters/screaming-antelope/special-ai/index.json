@@ -1,0 +1,57 @@
+{
+    "id": "screaming-antelope-special-ai",
+    "type": "AI",
+    "name": "Screaming Antelope Special AI",
+    "cards": [
+        {
+            "id": "diabolical",
+            "type": "AI",
+            "name": "Diabolical",
+            "front": "diabolical.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "gobbled-up",
+            "type": "AI",
+            "name": "Gobbled Up",
+            "front": "gobbled-up.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "gobbled-up",
+            "type": "AI",
+            "name": "Gobbled Up",
+            "front": "gobbled-up.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "gobbled-up",
+            "type": "AI",
+            "name": "Gobbled Up",
+            "front": "gobbled-up.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "gobbled-up",
+            "type": "AI",
+            "name": "Gobbled Up",
+            "front": "gobbled-up.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "hypermetabolism",
+            "type": "AI",
+            "name": "Hypermetabolism",
+            "front": "hypermetabolism.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "trample",
+            "type": "AI",
+            "name": "Trample",
+            "front": "trample.webp",
+            "back": "_back.webp"
+        }
+    ],
+    "base_folder": "monsters/screaming-antelope/special-ai/"
+}

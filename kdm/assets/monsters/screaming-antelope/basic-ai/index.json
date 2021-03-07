@@ -1,0 +1,92 @@
+{
+    "id": "screaming-antelope-basic-ai",
+    "type": "AI",
+    "name": "Screaming Antelope Basic AI",
+    "cards": [
+        {
+            "id": "back-kick",
+            "type": "AI",
+            "name": "Back Kick",
+            "front": "back-kick.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "back-kick",
+            "type": "AI",
+            "name": "Back Kick",
+            "front": "back-kick.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "bite",
+            "type": "AI",
+            "name": "Bite",
+            "front": "bite.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "bite",
+            "type": "AI",
+            "name": "Bite",
+            "front": "bite.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "bolt",
+            "type": "AI",
+            "name": "Bolt",
+            "front": "bolt.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "chow-down",
+            "type": "AI",
+            "name": "Chow Down",
+            "front": "chow-down.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "chow-down",
+            "type": "AI",
+            "name": "Chow Down",
+            "front": "chow-down.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "gore",
+            "type": "AI",
+            "name": "Gore",
+            "front": "gore.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "run-down",
+            "type": "AI",
+            "name": "Run Down",
+            "front": "run-down.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "slam",
+            "type": "AI",
+            "name": "Slam",
+            "front": "slam.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "stomp-and-snort",
+            "type": "AI",
+            "name": "Stomp & Snort",
+            "front": "stomp-and-snort.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "stomp-and-snort",
+            "type": "AI",
+            "name": "Stomp & Snort",
+            "front": "stomp-and-snort.webp",
+            "back": "_back.webp"
+        }
+    ],
+    "base_folder": "monsters/screaming-antelope/basic-ai/"
+}

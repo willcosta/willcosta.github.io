@@ -1,0 +1,15 @@
+{
+    "id": "screaming-antelope-reference",
+    "type": "AI",
+    "name": "Screaming Antelope Reference",
+    "base_folder": "monsters/screaming-antelope/reference",
+    "cards": [
+        {
+            "id": "basic-action",
+            "type": "AI",
+            "name": "Basic Action",
+            "front": "basic-action.webp",
+            "back": "reference-card.webp"
+        }
+    ]
+}

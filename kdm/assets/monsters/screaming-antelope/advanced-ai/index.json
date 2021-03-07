@@ -1,0 +1,64 @@
+{
+    "id": "screaming-antelope-advanced-ai",
+    "type": "AI",
+    "name": "Screaming Antelope Advanced AI",
+    "cards": [
+        {
+            "id": "buck",
+            "type": "AI",
+            "name": "Buck",
+            "front": "buck.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "crush-and-devour",
+            "type": "AI",
+            "name": "Crush and Devour",
+            "front": "crush-and-devour.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "great-kick",
+            "type": "AI",
+            "name": "Great Kick",
+            "front": "great-kick.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "infested",
+            "type": "AI",
+            "name": "Infested",
+            "front": "infested.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "lone-rampage",
+            "type": "AI",
+            "name": "Lone Rampage",
+            "front": "lone-rampage.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "ram",
+            "type": "AI",
+            "name": "Ram",
+            "front": "ram.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "ravenous",
+            "type": "AI",
+            "name": "Ravenous",
+            "front": "ravenous.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "stomp",
+            "type": "AI",
+            "name": "Stomp",
+            "front": "stomp.webp",
+            "back": "_back.webp"
+        }
+    ],
+    "base_folder": "monsters/screaming-antelope/advanced-ai/"
+}
