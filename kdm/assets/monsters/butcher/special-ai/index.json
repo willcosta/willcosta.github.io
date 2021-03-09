@@ -1,0 +1,71 @@
+{
+    "id": "butcher-special-ai",
+    "type": "AI",
+    "name": "Butcher Special AI",
+    "cards": [
+        {
+            "id": "berserker",
+            "type": "AI",
+            "name": "Berserker",
+            "front": "berserker.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "dreaded-trophies",
+            "type": "AI",
+            "name": "Dreaded Trophies",
+            "front": "dreaded-trophies.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "fast-target",
+            "type": "AI",
+            "name": "Fast Target",
+            "front": "fast-target.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "frenzied-berserker",
+            "type": "AI",
+            "name": "Frenzied Berserker",
+            "front": "frenzied-berserker.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "infectious-lunacy",
+            "type": "AI",
+            "name": "Infectious Lunacy",
+            "front": "infectious-lunacy.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "infectious-lunacy",
+            "type": "AI",
+            "name": "Infectious Lunacy",
+            "front": "infectious-lunacy.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "infectious-lunacy",
+            "type": "AI",
+            "name": "Infectious Lunacy",
+            "front": "infectious-lunacy.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "infectious-lunacy",
+            "type": "AI",
+            "name": "Infectious Lunacy",
+            "front": "infectious-lunacy.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "invincible",
+            "type": "AI",
+            "name": "Invincible",
+            "front": "invincible.webp",
+            "back": "_back.webp"
+        }
+    ],
+    "base_folder": "monsters/butcher/special-ai/"
+}

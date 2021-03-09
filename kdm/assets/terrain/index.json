@@ -1,0 +1,155 @@
+{
+    "id": "core-terrain",
+    "type": "Terrain",
+    "name": "Core Terrain",
+    "cards": [
+        {
+            "id": "2-acanthus-plants",
+            "type": "Terrain",
+            "name": "2 Acanthus Plants",
+            "front": "2-acanthus-plants.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "2-acanthus-plants",
+            "type": "Terrain",
+            "name": "2 Acanthus Plants",
+            "front": "2-acanthus-plants.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "2-acanthus-plants",
+            "type": "Terrain",
+            "name": "2 Acanthus Plants",
+            "front": "2-acanthus-plants.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "2-acanthus-plants",
+            "type": "Terrain",
+            "name": "2 Acanthus Plants",
+            "front": "2-acanthus-plants.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "2-tall-grass",
+            "type": "Terrain",
+            "name": "2 Tall Grass",
+            "front": "2-tall-grass.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "2-tall-grass",
+            "type": "Terrain",
+            "name": "2 Tall Grass",
+            "front": "2-tall-grass.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "3-stone-columns",
+            "type": "Terrain",
+            "name": "3 Stone Columns",
+            "front": "3-stone-columns.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "3-stone-columns",
+            "type": "Terrain",
+            "name": "3 Stone Columns",
+            "front": "3-stone-columns.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "bug-patch",
+            "type": "Terrain",
+            "name": "Bug Patch",
+            "front": "bug-patch.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "dead-monster",
+            "type": "Terrain",
+            "name": "Dead Monster",
+            "front": "dead-monster.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "debris",
+            "type": "Terrain",
+            "name": "Debris",
+            "front": "debris.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "debris",
+            "type": "Terrain",
+            "name": "Debris",
+            "front": "debris.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "giant-stone-face",
+            "type": "Terrain",
+            "name": "Giant Stone Face",
+            "front": "giant-stone-face.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "giant-stone-face",
+            "type": "Terrain",
+            "name": "Giant Stone Face",
+            "front": "giant-stone-face.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "nightmare-tree",
+            "type": "Terrain",
+            "name": "Nightmare Tree",
+            "front": "nightmare-tree.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "ore-vein",
+            "type": "Terrain",
+            "name": "Ore Vein",
+            "front": "ore-vein.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "ore-vein",
+            "type": "Terrain",
+            "name": "Ore Vein",
+            "front": "ore-vein.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "survivor-corpse",
+            "type": "Terrain",
+            "name": "Survivor Corpse",
+            "front": "survivor-corpse.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "survivor-corpse",
+            "type": "Terrain",
+            "name": "Survivor Corpse",
+            "front": "survivor-corpse.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "toppled-pillar",
+            "type": "Terrain",
+            "name": "Toppled Pillar",
+            "front": "toppled-pillar.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "toppled-pillar",
+            "type": "Terrain",
+            "name": "Toppled Pillar",
+            "front": "toppled-pillar.webp",
+            "back": "_back.webp"
+        }
+    ],
+    "base_folder": "monsters/butcher/special-ai/"
+}

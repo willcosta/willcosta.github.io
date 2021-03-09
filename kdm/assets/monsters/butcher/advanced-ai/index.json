@@ -1,0 +1,78 @@
+{
+    "id": "butcher-advanced-ai",
+    "type": "AI",
+    "name": "Butcher Advanced AI",
+    "cards": [
+        {
+            "id": "bite",
+            "type": "AI",
+            "name": "Bite",
+            "front": "bite.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "bite",
+            "type": "AI",
+            "name": "Bite",
+            "front": "bite.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "devour-lantern",
+            "type": "AI",
+            "name": "Devour Lantern",
+            "front": "devour-lantern.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "double-hack",
+            "type": "AI",
+            "name": "Double Hack",
+            "front": "double-hack.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "embrace-the-pain",
+            "type": "AI",
+            "name": "Embrace the Pain",
+            "front": "embrace-the-pain.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "forbidden-light",
+            "type": "AI",
+            "name": "Forbidden Light",
+            "front": "forbidden-light.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "gaze-of-truth",
+            "type": "AI",
+            "name": "Gaze of Truth",
+            "front": "gaze-of-truth.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "hack-city",
+            "type": "AI",
+            "name": "Hack City",
+            "front": "hack-city.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "lantern-frenzy",
+            "type": "AI",
+            "name": "Lantern Frenzy",
+            "front": "lantern-frenzy.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "lantern-hunger",
+            "type": "AI",
+            "name": "Lantern Hunger",
+            "front": "lantern-hunger.webp",
+            "back": "_back.webp"
+        }
+    ],
+    "base_folder": "monsters/butcher/advanced-ai/"
+}

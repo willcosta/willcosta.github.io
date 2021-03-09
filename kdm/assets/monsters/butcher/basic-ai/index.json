@@ -1,0 +1,85 @@
+{
+    "id": "butcher-basic-ai",
+    "type": "AI",
+    "name": "Butcher Basic AI",
+    "cards": [
+        {
+            "id": "backhand",
+            "type": "AI",
+            "name": "Backhand",
+            "front": "backhand.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "butcher-s-roar",
+            "type": "AI",
+            "name": "Butcher's Roar",
+            "front": "butcher-s-roar.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "hack",
+            "type": "AI",
+            "name": "Hack",
+            "front": "hack.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "hack",
+            "type": "AI",
+            "name": "Hack",
+            "front": "hack.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "hew",
+            "type": "AI",
+            "name": "Hew",
+            "front": "hew.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "hew",
+            "type": "AI",
+            "name": "Hew",
+            "front": "hew.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "infinite-kick",
+            "type": "AI",
+            "name": "Infinite Kick",
+            "front": "infinite-kick.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "kick",
+            "type": "AI",
+            "name": "Kick",
+            "front": "kick.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "screaming",
+            "type": "AI",
+            "name": "Screaming",
+            "front": "screaming.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "wild-carve",
+            "type": "AI",
+            "name": "Wild Carve",
+            "front": "wild-carve.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "wild-carve",
+            "type": "AI",
+            "name": "Wild Carve",
+            "front": "wild-carve.webp",
+            "back": "_back.webp"
+        }
+    ],
+    "base_folder": "monsters/butcher/basic-ai/"
+}

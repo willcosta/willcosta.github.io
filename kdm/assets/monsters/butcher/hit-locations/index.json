@@ -1,0 +1,113 @@
+{
+    "id": "butcher-hit-locations",
+    "type": "Hit Locations",
+    "name": "Butcher Hit Locations",
+    "cards": [
+        {
+            "id": "armored-pig-shoulder",
+            "type": "Hit Locations",
+            "name": "Armored Pig Shoulder",
+            "front": "armored-pig-shoulder.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "butcher-s-mask",
+            "type": "Hit Locations",
+            "name": "Butcher's Mask",
+            "front": "butcher-s-mask.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "cleaver",
+            "type": "Hit Locations",
+            "name": "Cleaver",
+            "front": "cleaver.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "cleaver2",
+            "type": "Hit Locations",
+            "name": "Cleaver",
+            "front": "cleaver2.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "furious-bellow",
+            "type": "Hit Locations",
+            "name": "Furious Bellow",
+            "front": "furious-bellow.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "furious-breast-plate",
+            "type": "Hit Locations",
+            "name": "Furious Breast Plate",
+            "front": "furious-breast-plate.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "furious-crown",
+            "type": "Hit Locations",
+            "name": "Furious Crown",
+            "front": "furious-crown.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "furious-gauntlet",
+            "type": "Hit Locations",
+            "name": "Furious Gauntlet",
+            "front": "furious-gauntlet.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "furious-greaves",
+            "type": "Hit Locations",
+            "name": "Furious Greaves",
+            "front": "furious-greaves.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "furious-gut",
+            "type": "Hit Locations",
+            "name": "Furious Gut",
+            "front": "furious-gut.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "furious-scrag",
+            "type": "Hit Locations",
+            "name": "Furious Scrag",
+            "front": "furious-scrag.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "furious-shoulder",
+            "type": "Hit Locations",
+            "name": "Furious Shoulder",
+            "front": "furious-shoulder.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "furious-vambraces",
+            "type": "Hit Locations",
+            "name": "Furious Vambraces",
+            "front": "furious-vambraces.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "overpower",
+            "type": "Hit Locations",
+            "name": "Overpower",
+            "front": "overpower.webp",
+            "back": "_back.webp"
+        },
+        {
+            "id": "thick-cape",
+            "type": "Hit Locations",
+            "name": "Thick Cape",
+            "front": "thick-cape.webp",
+            "back": "_back.webp"
+        }
+    ],
+    "base_folder": "monsters/butcher/hit-locations/"
+}
