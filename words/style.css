@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "joystix";
+    src: url("./joystix-monospace.otf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: joystix, Arial, Helvetica, sans-serif;
+  }
+
+:root{
+    --grid-size: 30px;
+    --grid-lines-color: #bbb;
+    --grid-bg-color: #ccc;
+    --grid-border-size: 2px;
+
+    --correct-color: #0CF25D;
+    --letter-incorrect-bg-color: #FF3D67;
+    --letter-correct-bg-color: #37A19A;
+    --letter-partial-bg-color: #FF9A59;
+    --letter-bg-color: #FF3D67;
+    --border-size: 1px;
+}
+
+body {
+    background-color: #333;;
+}
+  
+  #main {
+    margin: auto;
+    width: calc((var(--grid-size) + var(--grid-border-size)) * 15);
+    height: 750px;
+    outline: 1px solid white;
+    background-color: var(--grid-bg-color);
+    position: relative;
+
+    background-image:
+      repeating-linear-gradient(var(--grid-lines-color) 0 var(--grid-border-size), transparent var(--grid-border-size) 100%),
+      repeating-linear-gradient(90deg, var(--grid-lines-color) 0 var(--grid-border-size), transparent var(--grid-border-size) 100%);
+      background-size: calc(var(--grid-border-size) + var(--grid-size)) calc(var(--grid-border-size) + var(--grid-size));
+  }
+  
+  .letter {
+    width: var(--grid-size);
+    height: var(--grid-size);
+    text-align: center;
+    position: absolute;
+    background: var(--letter-bg-color);
+    padding: 4px;
+    border: var(--border-size) solid var(--grid-lines-color);
+    cursor: grab;
+    text-transform: uppercase;
+    z-index: 1;
+    font-size: 20px;
+    line-height: 20px;
+    transition: background-color 250ms;
+  }
+  
+  .letter--drag {
+    z-index: 10;
+  }
+
+  .letter--valid {
+    background-color: var(--letter-correct-bg-color);
+  }
+
+  .letter--partial {
+    background-color: var(--letter-partial-bg-color);
+  }
+
+
+  .letter--highlight-h {
+    background: var(--letter-correct-bg-color);
+    /* border-bottom: 2px solid var(--correct-color); */
+  }
+
+  .letter--highlight-v {
+    background: var(--letter-correct-bg-color);
+    /* border-left: 2px solid var(--correct-color); */
+  }
