@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Axones 6p';
+    src: url('./assets/axones_6p.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    /* For pixel fonts */
+    image-rendering: pixelated;
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: none;
+    text-rendering: optimizeLegibility;
+}
+
+#test_canvas {
+    image-rendering: pixelated;
+    text-rendering: optimizeLegibility;
+}
+
 body {
     margin: 0;
     padding: 0;
